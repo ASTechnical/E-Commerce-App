@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/home"
+
+            />
+
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/category"
+            android:title="@string/catagories" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/order"
+            android:title="@string/order" />
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/favourite"
+            android:title="@string/favourites" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/cart"
+            android:title="@string/cart"/>
+    <!--    <item
+            android:id="@+id/notification_background"
+            android:icon="@drawable/notification"
+            android:title="@string/p" />-->
+
+        <item
+            android:id="@+id/nav_accounts"
+            android:icon="@drawable/account"
+            android:title="@string/accounts" />
+        <item
+            android:id="@+id/nav_darkmode"
+            android:icon="@drawable/darkmode"
+            android:title="@string/dark_mode" />
+        <item
+            android:id="@+id/nav_log"
+            android:icon="@drawable/logout"
+            android:title="@string/log_out" />
+
+
+    </group>
+
+</menu>

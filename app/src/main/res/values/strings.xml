@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">E Commerce App</string>
+    <string name="home">Home</string>
+    <string name="night_mood">Night Mood</string>
+    <string name="tell_your_friend">Tell your Friend</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="exit_application">Exit Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="HOME_ICON_TEXT">Home</string>
+    <string name="category">Category</string>
+    <string name="favorites">favorites</string>
+    <string name="account">account</string>
+    <string name="home_tet">Home</string>
+    <string name="category_txt">Category</string>
+    <string name="home_text">Home</string>
+    <string name="categories">Categories</string>
+    <string name="catagories">Categories</string>
+    <string name="order">Order</string>
+    <string name="favourites">Favourites</string>
+    <string name="accounts">Accounts</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="log_out">Log out</string>
+    <string name="children">Children</string>
+    <string name="binish">Binish</string>
+    <string name="trending">Trending</string>
+    <string name="recommended">Recommended</string>
+    <string name="s" />
+    <string name="nested" />
+    <string name="upcoming_matches">Upcoming Matches</string>
+    <string name="see_all">See All</string>
+    <string name="seeall">See All</string>
+    <string name="ongoing_series">Ongoing Series</string>
+    <string name="trending_news">Trending News</string>
+    <string name="pakistan_and_india_set_to_renew_rivalry">Pakistan and India Set to Renew Rivalry</string>
+    <string name="the_world_of_cricket_few_matchups_generate_as_much_anticipation_and_excitement_as_a_clash_between_pakistan_and_india_once_again_these_two_cricketing_giants_are_set_to_renew_their_historic_rivalry_and_fans_across_the_globe_are_eagerly_awaiting_the_showdown">The world of cricket, few matchups generate as much anticipation and excitement as a clash between Pakistan and India. Once again, these two cricketing giants are set to renew their historic rivalry, and fans across the globe are eagerly awaiting the showdown.</string>
+    <string name="catagory">Category</string>
+    <string name="favourite">Favourite</string>
+    <string name="profile_fragment">Profile Fragment</string>
+
+    <string name="cart">cart</string>
+    <string name="notification">Notification</string>
+    <string name="r">Notification</string>
+    <string name="p">Notification\n</string>
+    <string name="all">All</string>
+    <string name="matches">Matches</string>
+    <string name="todo">TODO</string>
+    <string name="tod">TODO</string>
+    <string name="see">See all</string>
+    <string name="ttt">TODO</string>
+    <string name="yy">yy</string>
+    <string name="pp">pp</string>
+    <string name="too">TOO</string>
+    <string name="tpo">TpO</string>
+    <string name="tio">TiO</string>
+    <string name="lll">lll</string>
+    <string name="featured_products">Featured Products</string>
+    <string name="view_all">View all</string>
+    <string name="item">Item</string>
+    <string name="language">Language</string>
+    <string name="android">Android</string>
+    <string name="product_name">Product Name</string>
+    <string name="_205_350">205$ 350$</string>
+    <string name="all_product">All Product</string>
+    <string name="special_offer">Special Offer</string>
+
+</resources>

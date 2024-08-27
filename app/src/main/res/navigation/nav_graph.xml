@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ecommerceapp.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_settingFragment"
+            app:destination="@id/navigation" />
+        <action
+            android:id="@+id/action_homeFragment_to_catogeryFragment"
+            app:destination="@id/catogeryFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/catogeryFragment"
+        android:name="com.ecommerceapp.ui.fragments.CatogeryFragment"
+        android:label="fragment_catogery"
+        tools:layout="@layout/fragment_catogery" >
+        <action
+            android:id="@+id/action_catogeryFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/childrenFragment"
+        android:name="com.ecommerceapp.ui.fragments.home.ChildrenFragment"
+        android:label="fragment_children"
+        tools:layout="@layout/fragment_children" />
+    <fragment
+        android:id="@+id/recommendedFragment"
+        android:name="com.ecommerceapp.ui.fragments.home.RecommendedFragment"
+        android:label="fragment_recommended"
+        tools:layout="@layout/fragment_recommended" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.ecommerceapp.ui.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/trendingFragment"
+        android:name="com.ecommerceapp.ui.fragments.home.TrendingFragment"
+        android:label="fragment_trending"
+        tools:layout="@layout/fragment_trending" />
+    <navigation android:id="@+id/navigation"
+        app:startDestination="@id/favouriteFragment">
+        <fragment
+            android:id="@+id/favouriteFragment"
+            android:name="com.ecommerceapp.ui.fragments.FavouriteFragment"
+            android:label="fragment_setting"
+            tools:layout="@layout/fragment_favourite">
+            <action
+                android:id="@+id/action_favouriteFragment_to_homeFragment"
+                app:destination="@id/homeFragment" />
+        </fragment>
+    </navigation>
+    <fragment
+        android:id="@+id/allFragment"
+        android:name="com.ecommerceapp.ui.fragments.home.AllFragment"
+        android:label="fragment_all"
+        tools:layout="@layout/fragment_all" />
+</navigation>
