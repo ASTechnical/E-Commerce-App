@@ -24,6 +24,7 @@ class AppViewModel @Inject constructor(
     application: Application
 ) : AndroidViewModel(application) {
 
+
     val userData = MutableLiveData<UserData?>()
     val errorMessage = MutableLiveData<String>()
     val successMessage = MutableLiveData<String>()
@@ -39,6 +40,31 @@ class AppViewModel @Inject constructor(
             else -> "An error occurred: ${e.message}"
         }
         errorMessage.value = message
+    }
+    private fun <T> fetchDataFromRepository(
+        fetchData: suspend () -> List<T>,
+        onSuccess: (List<T>) -> Unit,
+        onError: (String) -> Unit
+    ) {
+        viewModelScope.launch(Dispatchers.IO) {
+            isLoading.postValue(true)
+            try {
+                val result = fetchData()
+                withContext(Dispatchers.Main) {
+                    if (result.isNotEmpty()) {
+                        onSuccess(result)
+                    } else {
+                        onError("No data found")
+                    }
+                }
+            } catch (e: Exception) {
+                withContext(Dispatchers.Main) {
+                    onError("Error fetching data: ${e.message}")
+                }
+            } finally {
+                isLoading.postValue(false)
+            }
+        }
     }
 
     fun sendVerificationEmail(email: String, password: String, onResult: (Boolean) -> Unit) {
@@ -142,7 +168,7 @@ class AppViewModel @Inject constructor(
         }
     }
 
-    private fun fetchDataFromRepository(
+   /* private fun  fetchDataFromRepository(
         fetchData: suspend () -> List<*>,
         onSuccess: (List<*>) -> Unit,
         onError: (String) -> Unit
@@ -166,12 +192,12 @@ class AppViewModel @Inject constructor(
                 isLoading.postValue(false)
             }
         }
-    }
+    }*/
 
     fun getProductData() {
         fetchDataFromRepository(
             fetchData = { appRepository.getProductData() },
-            onSuccess = { result -> products.value = result as List<ItemModel> },
+            onSuccess = { result -> products.value = result },
             onError = { message -> errorMessage.value = message }
         )
     }
@@ -179,7 +205,7 @@ class AppViewModel @Inject constructor(
     fun getImageData() {
         fetchDataFromRepository(
             fetchData = { appRepository.getImageData() },
-            onSuccess = { result -> images.value = result as List<ImageItem> },
+            onSuccess = { result -> images.value = result },
             onError = { message -> errorMessage.value = message }
         )
     }
@@ -187,7 +213,7 @@ class AppViewModel @Inject constructor(
     fun getGridProductData() {
         fetchDataFromRepository(
             fetchData = { appRepository.getGrideProductData() },
-            onSuccess = { result -> gridProducts.value = result as List<SpecialOfferModel> },
+            onSuccess = { result -> gridProducts.value = result },
             onError = { message -> errorMessage.value = message }
         )
     }
@@ -195,8 +221,31 @@ class AppViewModel @Inject constructor(
     fun getGridProductData2() {
         fetchDataFromRepository(
             fetchData = { appRepository.getGrideProductData2() },
-            onSuccess = { result -> gridProducts2.value = result as List<SpecialofferModel2> },
+            onSuccess = { result -> gridProducts2.value = result },
             onError = { message -> errorMessage.value = message }
         )
     }
+    fun addUserToFirestore(userId: String, name: String, profileImageUrl: String?, onResult: (Boolean) -> Unit) {
+        viewModelScope.launch(Dispatchers.IO) {
+            isLoading.postValue(true)
+            try {
+                val result = appRepository.addUserToFirestore(userId, name, profileImageUrl)
+                withContext(Dispatchers.Main) {
+                    onResult(result)
+                    if (result) {
+                        successMessage.value = "User data saved successfully"
+                    } else {
+                        errorMessage.value = "Failed to save user data"
+                    }
+                }
+            } catch (e: Exception) {
+                withContext(Dispatchers.Main) {
+                    errorMessage.value = "Error saving user data: ${e.message}"
+                }
+            } finally {
+                isLoading.postValue(false)
+            }
+        }
+    }
+
 }

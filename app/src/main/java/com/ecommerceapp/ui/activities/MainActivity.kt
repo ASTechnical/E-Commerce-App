@@ -1,6 +1,7 @@
 package com.ecommerceapp.ui.activities
 
 import android.os.Bundle
+import android.util.Log
 import android.view.MenuItem
 import android.view.View
 import android.widget.ImageView
@@ -18,7 +19,6 @@ import com.ecommerceapp.databinding.ActivityMainBinding
 import com.ecommerceapp.domain.viewmodel.AppViewModel
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.FirebaseApp
-import com.squareup.picasso.Picasso
 import dagger.hilt.android.AndroidEntryPoint
 
 //New Code After Update By Abu Saeed
@@ -36,24 +36,24 @@ class MainActivity : AppCompatActivity(),
         binding = ActivityMainBinding.inflate(layoutInflater)
         viewModel.fetchUserData()
 
-        // Observe userData LiveData
         viewModel.userData.observe(this) { userData ->
             if (userData != null) {
-                // Update UI with the fetched user data
                 binding!!.profileName.text = userData.name
-
-                // Load the profile picture if URL is provided
-                if (userData.profilePictureUrl != null) {
+                Log.d("MainActivity", "Profile Picture URL: $userData")
+                Toast.makeText(this, "Profile Picture URL: $userData:", Toast.LENGTH_SHORT).show()
+                userData.profileImageUrl?.let { url ->
+                    Log.d("MainActivity", "Profile Picture URL: $url")
+                    Toast.makeText(this, "Profile Picture URL: $url:", Toast.LENGTH_SHORT).show()
                     Glide.with(this)
-                        .load(userData.profilePictureUrl)
+                        .load(url)
                         .placeholder(R.drawable.ic_placeholder)
+                        .error(R.drawable.ic_error) // Add an error placeholder
                         .into(binding!!.profileImg)
-                } else {
-                    // Handle case where there is no profile picture
+
+                } ?: run {
                     binding!!.profileImg.setImageResource(R.drawable.profile)
                 }
             } else {
-                // Handle case where userData is null
                 binding!!.profileName.text = "No User Data"
                 binding!!.profileImg.setImageResource(R.drawable.ic_placeholder)
             }
@@ -61,9 +61,8 @@ class MainActivity : AppCompatActivity(),
 
         // Observe errorMessage LiveData
         viewModel.errorMessage.observe(this) { errorMessage ->
-            if (errorMessage != null) {
-                // Show error message to user
-                showError(errorMessage)
+            errorMessage?.let {
+                Toast.makeText(this, it, Toast.LENGTH_LONG).show()
             }
         }
 

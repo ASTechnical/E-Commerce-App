@@ -158,4 +158,19 @@ class AppRepository @Inject constructor(
             emptyList()
         }
     }
+    suspend fun addUserToFirestore(userId: String, name: String, profileImageUrl: String?) = withContext(Dispatchers.IO) {
+        try {
+            val userData = mapOf(
+                "name" to name,
+                "profileImageUrl" to profileImageUrl
+            )
+            firestore.collection(USER_COLLECTION).document(userId).set(userData).await()
+            true
+        } catch (e: Exception) {
+            Log.e(TAG, "Error saving user data", e)
+            false
+        }
+    }
 }
+
+
