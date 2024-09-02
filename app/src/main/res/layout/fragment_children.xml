@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:layout_marginTop="@dimen/_30sdp"
-    android:orientation="vertical"
-    >
+    android:background="@drawable/background"
+    android:orientation="vertical">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
-        android:layout_height="?actionBarSize">
+        android:layout_height="?actionBarSize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/all"
@@ -20,19 +22,18 @@
             android:layout_height="match_parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/trending"
-            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/textView16"
+                android:id="@+id/tvAll"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
-                android:text="All"
+                android:text="@string/all"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
-                android:textSize="16sp"
+
+                android:textSize="@dimen/_12ssp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -61,7 +62,7 @@
                 android:text="@string/trending"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
-                android:textSize="16sp"
+                android:textSize="@dimen/_10ssp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -79,8 +80,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/childern"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="119dp"
+            android:layout_height="59dp"
             android:gravity="center"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="@+id/all"
@@ -94,11 +95,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/children"
-                android:background="@color/pinkColor"
-                android:padding="@dimen/_4sdp"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
-                android:textSize="12sp"
+                android:background="@color/pinkColor"
+                android:textSize="@dimen/_10ssp"
                 app:layout_constraintBottom_toBottomOf="@+id/imageView7"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -117,7 +117,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/recommended"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="vertical"
@@ -131,10 +131,11 @@
                 android:id="@+id/textView16111"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+
                 android:text="@string/recommended"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
-                android:textSize="14sp"
+                android:textSize="@dimen/_10ssp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -152,87 +153,94 @@
                 app:layout_constraintStart_toStartOf="@+id/textView16111" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/light_gray"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
 
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/textView4"
+        android:layout_width="@dimen/_295sdp"
+
+        android:layout_height="139dp"
+        android:background="@drawable/banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout" />
     <androidx.core.widget.NestedScrollView
         android:id="@+id/nestedScrollView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:contentDescription="@string/nested"
-        android:layout_marginTop="4dp"
-        android:scrollbars="vertical">
-
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
         <LinearLayout
+            android:id="@+id/circleimg"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
             android:orientation="vertical">
 
 
 
+
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/matches_container"
+                android:id="@+id/childLinarLaout"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:visibility="gone">
+                android:layout_height="@dimen/_100sdp"
+                app:layout_constraintBottom_toTopOf="@+id/parentLinearyLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6">
 
                 <TextView
-                    android:id="@+id/txt_matches"
+                    android:id="@+id/textView6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="Matches"
-                    android:textColor="@color/color_black"
-                    android:textSize="16sp"
+                    android:text="@string/featured_products"
+                    android:textSize="@dimen/_15ssp"
                     android:textStyle="bold"
+                    android:layout_margin="10dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/live_match"
+                    android:id="@+id/textView7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="10dp"
-                    android:text="See all"
-                    android:textColor="@color/color_black"
-                    android:textSize="16sp"
-                    app:layout_constraintBottom_toBottomOf="@id/txt_matches"
+                    android:layout_marginStart="148dp"
+                    android:text="@string/view_all"
+                    android:textColor="#FF5B7E"
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    app:layout_constraintBottom_toBottomOf="@id/textView6"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="@id/txt_matches" />
+                    app:layout_constraintTop_toTopOf="@+id/textView6" />
 
                 <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/recycler_matches"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_marginVertical="7dp"
-                    app:layout_constraintEnd_toEndOf="@id/live_match"
-                    app:layout_constraintStart_toStartOf="@id/txt_matches"
-                    app:layout_constraintTop_toBottomOf="@id/txt_matches" />
+                    android:id="@+id/circleRecyclerView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_100sdp"
 
-
-
-
-
+                    android:paddingTop="@dimen/_8sdp"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:layout_constraintEnd_toEndOf="@id/textView7"
+                    app:layout_constraintStart_toStartOf="@+id/textView6"
+                    app:layout_constraintTop_toBottomOf="@id/textView6"
+                    tools:listitem="@layout/item_image" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-
             <LinearLayout
-                android:id="@+id/upcoming_matches_container"
+                android:id="@+id/parentLinearyLayout"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:visibility="gone">
 
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:orientation="vertical">
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:paddingVertical="4dp">
 
                     <TextView
@@ -240,11 +248,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
-
-                        android:text="@string/upcoming_matches"
+                        android:fontFamily="@font/open_sans"
+                        android:text="@string/all_product"
                         android:textAllCaps="false"
-                        android:textColor="@color/color_black"
+                        android:textColor="@color/white"
                         android:textSize="16sp"
+                        android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -253,157 +262,108 @@
                         android:id="@+id/see_all_upcoming"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="10dp"
-
-                        android:text="@string/seeall"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/open_sans"
+                        android:text="See All"
                         android:textAllCaps="false"
-                        android:textColor="@color/color_black"
+                        android:textColor="#FF5B7E"
+                        android:textStyle="bold"
                         android:textSize="16sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="@+id/textView5" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
-
                 <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/upcoming_recycle_view"
+                    android:id="@+id/mainRecyclerView"
                     android:layout_width="match_parent"
+
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_marginVertical="7dp" />
+                    android:fadeScrollbars="true"
+                    android:padding="@dimen/_10sdp"
+                    android:scrollbarSize="@dimen/_1sdp"
+                    android:scrollbarThumbVertical="@color/pinkColor"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:spanCount="2"
+                    tools:listitem="@layout/parent_item" />
 
             </LinearLayout>
 
-
             <LinearLayout
-                android:id="@+id/ongoing_series_container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:visibility="gone">
+
+                >
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/third"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:paddingVertical="4dp">
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="10dp"
+                    app:layout_constraintBottom_toTopOf="@+id/parentLinearyLayout"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6">
 
                     <TextView
-                        android:id="@+id/textView51"
+                        android:id="@+id/tvSpecialOffer"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-
-                        android:text="@string/ongoing_series"
-                        android:textAllCaps="false"
-                        android:textColor="@color/color_black"
-                        android:textSize="16sp"
-                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_margin="10dp"
+                        android:text="@string/special_offer"
+                        android:textSize="@dimen/_15ssp"
+                        android:textStyle="bold"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/see_all_series"
+                        android:id="@+id/tv3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="10dp"
-
-                        android:text="@string/see_all"
-                        android:textAllCaps="false"
-                        android:textColor="@color/color_black"
-                        android:textSize="16sp"
-                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_margin="10dp"
+                        android:layout_marginStart="148dp"
+                        android:text="@string/view_all"
+                        android:textColor="#FF5B7E"
+                        android:textSize="@dimen/_15ssp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="@id/tvSpecialOffer"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="@+id/textView51" />
+                        app:layout_constraintTop_toTopOf="@+id/tvSpecialOffer" />
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="220dp"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_marginVertical="7dp"
-                    android:elevation="4dp"
-                    app:cardCornerRadius="8dp">
-
-                    <androidx.recyclerview.widget.RecyclerView
-                        android:id="@+id/on_going_series"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
-
-                </androidx.cardview.widget.CardView>
-
             </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/grideRecyclerView"
 
-            <LinearLayout
-                android:id="@+id/news_container"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:visibility="invisible">
+                android:fadeScrollbars="true"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:gravity="center|start"
-                    android:text="@string/trending_news"
-                    android:textColor="@color/color_black"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
+                />
 
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/gride2RecyclerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fadeScrollbars="true"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="4dp">
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
+                />
 
 
-                        <TextView
-                            android:id="@+id/text_view_title_trending"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
 
-                            android:maxLines="2"
-                            android:paddingHorizontal="10dp"
-                            android:text="@string/pakistan_and_india_set_to_renew_rivalry"
-                            android:textColor="@color/color_black"
-                            android:textSize="16sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/text_view_description_trending"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
-                            android:ellipsize="end"
-
-                            android:maxLines="3"
-                            android:paddingHorizontal="10dp"
-                            android:text="@string/the_world_of_cricket_few_matchups_generate_as_much_anticipation_and_excitement_as_a_clash_between_pakistan_and_india_once_again_these_two_cricketing_giants_are_set_to_renew_their_historic_rivalry_and_fans_across_the_globe_are_eagerly_awaiting_the_showdown"
-                            android:textColor="@color/color_black" />
-
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-
-                <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/recyclerViewNews"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="10dp"
-                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
-
-            </LinearLayout>
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,6 +13,7 @@
     <color name="blue">#8306C1</color>
     <color name="gray">#A6A2A2</color>
     <color name="black">#000000</color>
+    <color name="backgroungseletedcolor">#1F2C34</color>
     <color name="special_text_color">#914CFD</color>
 
     <color name="gray_bg">#ECECEC</color>
@@ -28,7 +29,7 @@
     <color name="transperent">#00FFFFFF</color>
     <color name="tranColor">#805900E6</color>
     <color name="tranColor2">#605900E6</color>
-
+    <color name="aquacolor">#289A8F</color>
     <color name="shimmerColor">#C2C2C2</color>
     <color name="shimmerColor_light">#E1E1E1</color>
 </resources>

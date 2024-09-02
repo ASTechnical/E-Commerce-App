@@ -1,9 +1,12 @@
 plugins {
-    alias(libs.plugins.android.application)
+    alias(libs.plugins.android.application) // Android plugin comes first
     alias(libs.plugins.jetbrains.kotlin.android)
     id("com.google.gms.google-services")
     id("com.google.dagger.hilt.android")
     id("com.google.devtools.ksp")
+    id("androidx.navigation.safeargs.kotlin")
+    id("kotlin-android")
+    id("kotlin-parcelize")
 }
 
 android {
@@ -58,9 +61,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
- //   implementation ("com.github.OMARIHAMZA:StoryView:1.0.2-alpha")
-  //  implementation ("com.github.sharish:ShimmerRecyclerView:v1.3")
-  //  implementation ("com.github.3llomi:CircularStatusView:V1.0.3")
+    //   implementation ("com.github.OMARIHAMZA:StoryView:1.0.2-alpha")
+    //  implementation ("com.github.sharish:ShimmerRecyclerView:v1.3")
+    //  implementation ("com.github.3llomi:CircularStatusView:V1.0.3")
     implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
     // Firebase Authentication
     implementation ("com.google.firebase:firebase-auth:23.0.0")
@@ -68,7 +71,7 @@ dependencies {
 
     //  implementation("com.google.firebase:firebase-database-ktx")
     implementation("com.google.firebase:firebase-storage-ktx")
-   // implementation("com.google.firebase:firebase-auth-ktx")
+    // implementation("com.google.firebase:firebase-auth-ktx")
     implementation("com.google.firebase:firebase-messaging-ktx")
     implementation ("com.google.firebase:firebase-firestore-ktx:25.0.0")
     implementation ("com.github.bumptech.glide:glide:4.12.0")
@@ -82,9 +85,14 @@ dependencies {
     // For local unit tests
     testImplementation("com.google.dagger:hilt-android-testing:2.51.1")
     kspTest("com.google.dagger:hilt-compiler:2.51.1")
-   // kapt ("com.github.bumptech.glide:compiler:4.12.0")
-
+    // kapt ("com.github.bumptech.glide:compiler:4.12.0")
 
     implementation ("com.squareup.picasso:picasso:2.71828")
+
+    implementation ("org.jetbrains.kotlin:kotlin-parcelize-runtime:1.6.10" )
+    implementation ("androidx.core:core-ktx:1.9.0")
+
+    implementation("androidx.navigation:navigation-fragment-ktx:2.8.5")
+    implementation("androidx.navigation:navigation-ui-ktx:2.8.5")
 
 }

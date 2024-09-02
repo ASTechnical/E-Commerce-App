@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
 
     <application
         android:name=".MyApplication"
@@ -16,32 +19,33 @@
         android:theme="@style/Theme.ECommerceApp"
         tools:targetApi="31">
         <activity
-            android:name=".ui.activities.ResetpasswordActivity"
+            android:name=".presentation.ui.activities.ResetpasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.activities.EnterOtpActivity"
+            android:name=".presentation.ui.activities.EnterOtpActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.activities.ForgetPasswordActivity"
+            android:name=".presentation.ui.activities.ForgetPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.activities.LoginActivity"
+            android:name=".presentation.ui.activities.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.activities.MainActivity"
+            android:name=".presentation.ui.activities.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.activities.SignInActivity"
-            android:exported="true" >
+            android:name=".presentation.ui.activities.SignUpActivity"
+            android:exported="false" >
+
+        </activity>
+        <activity
+            android:name=".presentation.ui.activities.SignInActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".ui.activities.SignUpActivity"
-            android:exported="false">
 
         </activity>
 
