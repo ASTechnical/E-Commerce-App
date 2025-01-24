@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/Accessories"
+
+        android:title="@string/Accessories"
+
+        />
+    <item
+        android:id="@+id/tshirts"
+
+        android:title="@string/t_shirts"
+
+        />
+    <item
+        android:id="@+id/bakeweare"
+
+        android:title="@string/bakewear"
+
+        />
+    <item
+        android:id="@+id/handbag"
+
+        android:title="@string/handbag"
+
+        />
+    <item
+        android:id="@+id/homeKitchen"
+        android:title="@string/home_kitchen"
+
+        />
+    <item
+        android:id="@+id/wintershoes"
+        android:title="@string/winter_shoes"
+
+        />
+    <item
+        android:id="@+id/women"
+        android:title="@string/women"
+
+        />
+    <item
+        android:id="@+id/men"
+        android:title="@string/men"
+
+        />
+
+
+</menu>

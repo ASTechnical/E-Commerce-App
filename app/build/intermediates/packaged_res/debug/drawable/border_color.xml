@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        android:width="2dp"
+        android:color="#02CCC0" /> <!-- Customize the outline color -->
+    <corners android:radius="4dp" /> <!-- Customize the corner radius if needed -->
+    <padding
+        android:left="4dp"
+        android:top="4dp"
+        android:right="4dp"
+        android:bottom="4dp" /> <!-- Adjust padding if needed -->
+</shape>
