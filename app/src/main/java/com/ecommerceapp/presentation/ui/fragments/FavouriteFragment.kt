@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.ecommerceapp.presentation.adapters.ChildItemAdapter
 import dagger.hilt.android.AndroidEntryPoint
 import com.ecommerceapp.databinding.FragmentFavouriteBinding
-import com.ecommerceapp.presentation.viewModel.AppViewModel
+import com.ecommerceapp.domain.viewmodel.AppViewModel
 import androidx.fragment.app.viewModels
 import com.ecommerceapp.domain.interfaces.OnClick
 import com.ecommerceapp.models.ItemModel

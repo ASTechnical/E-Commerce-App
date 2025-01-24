@@ -225,7 +225,6 @@ class AppRepository @Inject constructor(
                 emptyList()
             }
         }
-<<<<<<< HEAD
         suspend fun getRecommendedCenterProductData(): List<ItemModel> = withContext(Dispatchers.IO) {
             try {
                 firestore.collection(RECOMMENDED_PRODUCT_CENTER_COLLECTION).get().await().documents.mapNotNull { document ->
@@ -365,22 +364,19 @@ class AppRepository @Inject constructor(
         }
 
     }
-=======
-    }
-    suspend fun addUserToFirestore(userId: String, name: String, profileImageUrl: String?) = withContext(Dispatchers.IO) {
-        try {
-            val userData = mapOf(
-                "name" to name,
-                "profileImageUrl" to profileImageUrl
-            )
-            firestore.collection(USER_COLLECTION).document(userId).set(userData).await()
-            true
-        } catch (e: Exception) {
-            Log.e(TAG, "Error saving user data", e)
-            false
-        }
-    }
-}
 
 
->>>>>>> 884c252fb20745c665e0fde3f029fee1f9320a35
+//    suspend fun addUserToFirestore(userId: String, name: String, profileImageUrl: String?) = withContext(Dispatchers.IO) {
+//        try {
+//            val userData = mapOf(
+//                "name" to name,
+//                "profileImageUrl" to profileImageUrl
+//            )
+//            firestore.collection(USER_COLLECTION).document(userId).set(userData).await()
+//            true
+//        } catch (e: Exception) {
+//            Log.e(TAG, "Error saving user data", e)
+//            false
+//        }
+//    }
+

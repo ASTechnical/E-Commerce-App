@@ -19,7 +19,7 @@ import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
 import com.ecommerceapp.R
 import com.ecommerceapp.databinding.ActivityMainBinding
-import com.ecommerceapp.presentation.viewModel.AppViewModel
+import com.ecommerceapp.domain.viewmodel.AppViewModel
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.FirebaseApp
 import dagger.hilt.android.AndroidEntryPoint

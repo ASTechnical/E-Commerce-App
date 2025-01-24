@@ -19,7 +19,7 @@ import com.ecommerceapp.presentation.adapters.ChildItemAdapter
 import com.ecommerceapp.presentation.adapters.ImageAdapter
 import com.ecommerceapp.presentation.adapters.SpecialOfferAdapter
 import com.ecommerceapp.presentation.adapters.SpecialOfferAdapter2
-import com.ecommerceapp.presentation.viewModel.AppViewModel
+import com.ecommerceapp.domain.viewmodel.AppViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

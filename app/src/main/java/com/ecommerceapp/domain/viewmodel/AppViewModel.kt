@@ -3,17 +3,20 @@ package com.ecommerceapp.domain.viewmodel
 import android.app.Application
 import android.util.Log
 import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.ecommerceapp.data.repository.AppRepository
-import com.ecommerceapp.models.ImageItem
+import com.ecommerceapp.models.CategoriesModel
+
+import com.ecommerceapp.models.ImageItemModel
 import com.ecommerceapp.models.ItemModel
-import com.ecommerceapp.models.SpecialOfferModel
-import com.ecommerceapp.models.SpecialofferModel2
-import com.ecommerceapp.models.UserData
+
+import com.ecommerceapp.models.UserDataModel
 import com.google.firebase.auth.FirebaseAuthUserCollisionException
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
+
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
@@ -25,22 +28,40 @@ class AppViewModel @Inject constructor(
 ) : AndroidViewModel(application) {
 
 
-    val userData = MutableLiveData<UserData?>()
-    val errorMessage = MutableLiveData<String>()
-    val successMessage = MutableLiveData<String>()
+    // New LiveData to hold category products
+    val categoryProducts = MutableLiveData<List<CategoriesModel>>()
+
+    val userDataModel = MutableLiveData<UserDataModel?>()
+
+    private val successMessage = MutableLiveData<String>()
     val products = MutableLiveData<List<ItemModel>>()
-    val images = MutableLiveData<List<ImageItem>>()
-    val gridProducts = MutableLiveData<List<SpecialOfferModel>>()
-    val gridProducts2 = MutableLiveData<List<SpecialofferModel2>>()
+
+    val recommendedproduct = MutableLiveData<List<ImageItemModel>>()
+
+
+
+    private val _specialOffers = MutableLiveData<List<CategoriesModel>>()
+    val specialOffers: LiveData<List<CategoriesModel>> get() = _specialOffers
+
+    private val _newProducts = MutableLiveData<List<CategoriesModel>>()
+    val newProducts: LiveData<List<CategoriesModel>> get() = _newProducts
+
+
+
+    val errorMessage: LiveData<String?> get() = _errorMessage
+    private val _errorMessage = MutableLiveData<String?>()
+
     val isLoading = MutableLiveData<Boolean>()
+
 
     private fun handleAuthException(e: Exception) {
         val message = when (e) {
             is FirebaseAuthUserCollisionException -> "User already exists. Please use a different email."
             else -> "An error occurred: ${e.message}"
         }
-        errorMessage.value = message
+        _errorMessage.value = message
     }
+
     private fun <T> fetchDataFromRepository(
         fetchData: suspend () -> List<T>,
         onSuccess: (List<T>) -> Unit,
@@ -67,22 +88,13 @@ class AppViewModel @Inject constructor(
         }
     }
 
-    fun sendVerificationEmail(email: String, password: String, onResult: (Boolean) -> Unit) {
-        viewModelScope.launch(Dispatchers.IO) {
-            try {
-                val result = appRepository.sendVerificationEmail(email, password)
-                withContext(Dispatchers.Main) {
-                    onResult(result)
-                }
-            } catch (e: Exception) {
-                withContext(Dispatchers.Main) {
-                    handleAuthException(e)
-                    onResult(false)
-                }
-            }
-        }
-    }
-    fun signUpWithEmailPassword(email: String, password: String, name: String, onResult: (String?) -> Unit) {
+
+    fun signUpWithEmailPassword(
+        email: String,
+        password: String,
+        name: String,
+        onResult: (String?) -> Unit
+    ) {
         viewModelScope.launch(Dispatchers.IO) {
             try {
                 val userId = appRepository.signUpWithEmailPassword(email, password, name)
@@ -90,13 +102,13 @@ class AppViewModel @Inject constructor(
                     if (userId != null) {
                         onResult(userId)
                     } else {
-                        errorMessage.value = "Error occurred during sign-up. Please try again."
+                        _errorMessage.value = "Error occurred during sign-up. Please try again."
                         onResult(null)
                     }
                 }
             } catch (e: FirebaseAuthUserCollisionException) {
                 withContext(Dispatchers.Main) {
-                    errorMessage.value = "This email is already registered. Please log in."
+                    _errorMessage.value = "This email is already registered. Please log in."
                     onResult(null)
                 }
             } catch (e: Exception) {
@@ -132,21 +144,21 @@ class AppViewModel @Inject constructor(
                 try {
                     val data = appRepository.fetchUserData(userId)
                     withContext(Dispatchers.Main) {
-                        userData.value = data
+                        userDataModel.value = data
                         if (data == null) {
-                            errorMessage.value = "User data not found"
+                            _errorMessage.value = "User data not found"
                         }
                     }
                 } catch (e: Exception) {
                     withContext(Dispatchers.Main) {
-                        errorMessage.value = "Error fetching user data: ${e.message}"
+                        _errorMessage.value = "Error fetching user data: ${e.message}"
                     }
                 } finally {
                     isLoading.postValue(false)
                 }
             }
         } else {
-            errorMessage.value = "User is not authenticated"
+            _errorMessage.value = "User is not authenticated"
         }
     }
 
@@ -154,9 +166,24 @@ class AppViewModel @Inject constructor(
     fun addDummyProductsAndFetch() {
         viewModelScope.launch(Dispatchers.IO) {
             val products = listOf(
-                ItemModel("Product 1", "https://upload.wikimedia.org/wikipedia/commons/5/52/Flag_of_%C3%85land.svg", 0.0, 10.0),
-                ItemModel("Product 2", "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg", 0.0, 20.0),
-                ItemModel("Product 3", "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg", 0.0, 30.0)
+                ItemModel(
+                    "Product 1",
+                    "https://upload.wikimedia.org/wikipedia/commons/5/52/Flag_of_%C3%85land.svg",
+                    0.0,
+                    10.0
+                ),
+                ItemModel(
+                    "Product 2",
+                    "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg",
+                    0.0,
+                    20.0
+                ),
+                ItemModel(
+                    "Product 3",
+                    "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg",
+                    0.0,
+                    30.0
+                )
             )
 
             try {
@@ -168,64 +195,151 @@ class AppViewModel @Inject constructor(
         }
     }
 
-   /* private fun  fetchDataFromRepository(
-        fetchData: suspend () -> List<*>,
-        onSuccess: (List<*>) -> Unit,
-        onError: (String) -> Unit
-    ) {
-        viewModelScope.launch(Dispatchers.IO) {
-            isLoading.postValue(true)
-            try {
-                val result = fetchData()
-                withContext(Dispatchers.Main) {
-                    if (result.isNotEmpty()) {
-                        onSuccess(result)
-                    } else {
-                        onError("No data found")
-                    }
-                }
-            } catch (e: Exception) {
-                withContext(Dispatchers.Main) {
-                    onError("Error fetching data: ${e.message}")
-                }
-            } finally {
-                isLoading.postValue(false)
-            }
-        }
-    }*/
 
     fun getProductData() {
         fetchDataFromRepository(
             fetchData = { appRepository.getProductData() },
             onSuccess = { result -> products.value = result },
-            onError = { message -> errorMessage.value = message }
+            onError = { message -> _errorMessage.value = message }
         )
     }
 
     fun getImageData() {
         fetchDataFromRepository(
             fetchData = { appRepository.getImageData() },
-            onSuccess = { result -> images.value = result },
-            onError = { message -> errorMessage.value = message }
+            onSuccess = { result -> recommendedproduct.value = result },
+            onError = { message -> _errorMessage.value = message }
+        )
+    }
+
+    fun getTrendingpProductData() {
+        fetchDataFromRepository(
+            fetchData = { appRepository.getTrendingpProductData() },
+            onSuccess = { result -> products.value = result },
+            onError = { message -> _errorMessage.value = message }
+        )
+    }
+
+    fun getAccessoriesProductData() {
+        fetchDataFromRepository(
+            fetchData = { appRepository.getAccessoriesProductData() },
+            onSuccess = { result -> categoryProducts.value = result },
+            onError = { message -> _errorMessage.value = message }
         )
     }
 
     fun getGridProductData() {
         fetchDataFromRepository(
             fetchData = { appRepository.getGrideProductData() },
-            onSuccess = { result -> gridProducts.value = result },
-            onError = { message -> errorMessage.value = message }
+            onSuccess = { result -> products.value = result },
+            onError = { message -> _errorMessage.value = message }
         )
     }
+
+    fun getSpecialTrendingProductData() {
+        fetchDataFromRepository(
+            fetchData = { appRepository.getSpecialTrendingProductData() },
+            onSuccess = { result -> products.value = result },
+            onError = { message -> _errorMessage.value = message }
+        )
+    }
+
+    fun getProductdown() {
+        fetchDataFromRepository(
+            fetchData = { appRepository.getProductdown() },
+            onSuccess = { result -> products.value = result },
+            onError = { message -> _errorMessage.value = message }
+        )
+    }
+
 
     fun getGridProductData2() {
         fetchDataFromRepository(
             fetchData = { appRepository.getGrideProductData2() },
-            onSuccess = { result -> gridProducts2.value = result },
-            onError = { message -> errorMessage.value = message }
+            onSuccess = { result -> products.value = result },
+            onError = { message -> _errorMessage.value = message }
         )
     }
-    fun addUserToFirestore(userId: String, name: String, profileImageUrl: String?, onResult: (Boolean) -> Unit) {
+
+    fun getChildernProductData() {
+        fetchDataFromRepository(
+            fetchData = { appRepository.getChildernProductData() },
+            onSuccess = { result -> recommendedproduct.value = result },
+            onError = { message -> _errorMessage.value = message }
+        )
+    }
+
+    fun getChildernCenterProductData() {
+        fetchDataFromRepository(
+            fetchData = { appRepository.getChildernCenterProductData() },
+            onSuccess = { result -> products.value = result },
+            onError = { message -> _errorMessage.value = message }
+        )
+    }
+
+    fun getChildernCenterProductDataUp() {
+        fetchDataFromRepository(
+            fetchData = { appRepository.getChildernCenterProductDataUp() },
+            onSuccess = { result -> products.value = result },
+            onError = { message -> _errorMessage.value = message }
+        )
+    }
+
+    fun getChildernCenterProductDataDown() {
+        fetchDataFromRepository(
+            fetchData = { appRepository.getChildernCenterProductDataDown() },
+            onSuccess = { result -> products.value = result },
+            onError = { message -> _errorMessage.value = message }
+        )
+    }
+
+    // new line
+    fun getRecommendedProductData() {
+        fetchDataFromRepository(
+            fetchData = { appRepository.getRecommendedProductData() },
+            onSuccess = { result -> recommendedproduct.value = result },
+            onError = { message -> _errorMessage.value = message }
+        )
+    }
+
+    fun getRecommendedCenterProductData() {
+        fetchDataFromRepository(
+            fetchData = { appRepository.getRecommendedCenterProductData() },
+            onSuccess = { result -> products.value = result },
+            onError = { message -> _errorMessage.value = message }
+        )
+    }
+
+    fun getRecommendedProductDataUp() {
+        fetchDataFromRepository(
+            fetchData = { appRepository.getRecommendedProductDataUp() },
+            onSuccess = { result -> products.value = result },
+            onError = { message -> _errorMessage.value = message }
+        )
+    }
+
+    fun getRecommendedCenterProductDataDown() {
+        fetchDataFromRepository(
+            fetchData = { appRepository.getRecommendedCenterProductDataDown() },
+            onSuccess = { result -> products.value = result },
+            onError = { message -> _errorMessage.value = message }
+        )
+    }
+
+    fun getChildernOfferProductData() {
+        fetchDataFromRepository(
+            fetchData = { appRepository.getChildernOfferProductData() },
+            onSuccess = { result -> products.value = result },
+            onError = { message -> _errorMessage.value = message }
+        )
+    }
+
+    fun addUserToFirestore(
+        userId: String,
+        name: String,
+        profileImageUrl: String?,
+        onResult: (Boolean) -> Unit
+    ) {
         viewModelScope.launch(Dispatchers.IO) {
             isLoading.postValue(true)
             try {
@@ -235,12 +349,12 @@ class AppViewModel @Inject constructor(
                     if (result) {
                         successMessage.value = "User data saved successfully"
                     } else {
-                        errorMessage.value = "Failed to save user data"
+                        _errorMessage.value = "Failed to save user data"
                     }
                 }
             } catch (e: Exception) {
                 withContext(Dispatchers.Main) {
-                    errorMessage.value = "Error saving user data: ${e.message}"
+                    _errorMessage.value = "Error saving user data: ${e.message}"
                 }
             } finally {
                 isLoading.postValue(false)
@@ -248,4 +362,23 @@ class AppViewModel @Inject constructor(
         }
     }
 
+
+    fun fetchCategoryProducts(categoryName: String) {
+        // Fetch special offer products
+        fetchDataFromRepository(
+            fetchData = { appRepository.getCategoryProductsByType(categoryName, "specialOffer") },
+            onSuccess = { products -> _specialOffers.value = products },
+            onError = { error -> _errorMessage.value = error }
+        )
+
+        // Fetch new product products
+        fetchDataFromRepository(
+            fetchData = { appRepository.getCategoryProductsByType(categoryName, "newProduct") },
+            onSuccess = { products -> _newProducts.value = products },
+            onError = { error -> _errorMessage.value = error }
+        )
+
+
+    }
 }
+

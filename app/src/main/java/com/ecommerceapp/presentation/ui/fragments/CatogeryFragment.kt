@@ -17,7 +17,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.ecommerceapp.R
 import com.ecommerceapp.presentation.adapters.AccessoriesAdapter
 import com.ecommerceapp.databinding.FragmentCatogeryBinding
-import com.ecommerceapp.presentation.viewModel.AppViewModel
+import com.ecommerceapp.domain.viewmodel.AppViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

@@ -1,6 +1,7 @@
 package com.ecommerceapp;
 
 import com.ecommerceapp.domain.di.AppModule;
+import com.ecommerceapp.domain.viewmodel.AppViewModel_HiltModules;
 import com.ecommerceapp.presentation.ui.activities.EnterOtpActivity_GeneratedInjector;
 import com.ecommerceapp.presentation.ui.activities.ForgetPasswordActivity_GeneratedInjector;
 import com.ecommerceapp.presentation.ui.activities.LoginActivity_GeneratedInjector;
@@ -15,7 +16,6 @@ import com.ecommerceapp.presentation.ui.fragments.home.ChildrenFragment_Generate
 import com.ecommerceapp.presentation.ui.fragments.home.RecommendedFragment_GeneratedInjector;
 import com.ecommerceapp.presentation.ui.fragments.home.TShirtsFragment_GeneratedInjector;
 import com.ecommerceapp.presentation.ui.fragments.home.TrendingFragment_GeneratedInjector;
-import com.ecommerceapp.presentation.viewModel.AppViewModel_HiltModules;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;
@@ -159,6 +159,7 @@ public final class MyApplication_HiltComponents {
   @Subcomponent(
       modules = {
           AppViewModel_HiltModules.KeyModule.class,
+          com.ecommerceapp.presentation.viewModel.AppViewModel_HiltModules.KeyModule.class,
           HiltWrapper_ActivityRetainedComponentManager_LifecycleModule.class,
           HiltWrapper_SavedStateHandleModule.class,
           ActivityCBuilderModule.class,
@@ -191,6 +192,8 @@ public final class MyApplication_HiltComponents {
       ResetpasswordActivity_GeneratedInjector,
       SignInActivity_GeneratedInjector,
       SignUpActivity_GeneratedInjector,
+      com.ecommerceapp.ui.activities.MainActivity_GeneratedInjector,
+      com.ecommerceapp.ui.activities.SignUpActivity_GeneratedInjector,
       ActivityComponent,
       DefaultViewModelFactories.ActivityEntryPoint,
       HiltWrapper_HiltViewModelFactory_ActivityCreatorEntryPoint,
@@ -205,6 +208,7 @@ public final class MyApplication_HiltComponents {
   @Subcomponent(
       modules = {
           AppViewModel_HiltModules.BindsModule.class,
+          com.ecommerceapp.presentation.viewModel.AppViewModel_HiltModules.BindsModule.class,
           HiltWrapper_HiltViewModelFactory_ViewModelModule.class
       }
   )

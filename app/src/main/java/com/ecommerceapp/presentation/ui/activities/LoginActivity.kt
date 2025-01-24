@@ -6,7 +6,8 @@ import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.ecommerceapp.databinding.ActivityCodeVerificationBinding
-import com.ecommerceapp.presentation.viewModel.AppViewModel
+import com.ecommerceapp.domain.viewmodel.AppViewModel
+import com.ecommerceapp.ui.activities.MainActivity
 import com.google.firebase.auth.FirebaseAuth
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -36,7 +37,7 @@ binding.verifyButton.setOnClickListener{
                     // Check if the email is verified
                     if (user.isEmailVerified) {
                         // Navigate to the home screen if email is verified
-                        startActivity(Intent(this, com.ecommerceapp.presentation.ui.activities.MainActivity::class.java))
+                        startActivity(Intent(this, MainActivity::class.java))
                         finish()
                     } else {
                         // Show a message if the email is not verified

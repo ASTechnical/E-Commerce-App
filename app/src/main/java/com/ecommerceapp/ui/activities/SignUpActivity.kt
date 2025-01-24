@@ -8,9 +8,10 @@ import android.view.View
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.Observer
 import com.ecommerceapp.databinding.ActivitySignUpBinding
-import com.ecommerceapp.domain.viewmodel.AppViewModel
+import com.ecommerceapp.presentation.ui.activities.SignInActivity
+import com.ecommerceapp.presentation.viewModel.AppViewModel
+
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.storage.FirebaseStorage
 import dagger.hilt.android.AndroidEntryPoint
@@ -36,7 +37,7 @@ class SignUpActivity : AppCompatActivity() {
         binding.tvHaveAccount.setOnClickListener {
             navigateToSignInActivity()
         }
-        binding.view.setOnClickListener {
+        binding.profileImg.setOnClickListener {
             openImagePicker()
         }
         binding.signUpButton.setOnClickListener {
@@ -102,21 +103,21 @@ class SignUpActivity : AppCompatActivity() {
         }
     }
 
-   /* private fun signUpUser(email: String, password: String, name: String) {
-        viewModel.signUpWithEmailPassword(email, password, name) { userId ->
-            binding.progressBar.visibility = View.GONE
-            if (userId != null) {
-                Log.d("SignUpActivity", "User signed up with ID: $userId")
-                Toast.makeText(this, "Verification email sent. Please verify your email.", Toast.LENGTH_SHORT).show()
+    /* private fun signUpUser(email: String, password: String, name: String) {
+         viewModel.signUpWithEmailPassword(email, password, name) { userId ->
+             binding.progressBar.visibility = View.GONE
+             if (userId != null) {
+                 Log.d("SignUpActivity", "User signed up with ID: $userId")
+                 Toast.makeText(this, "Verification email sent. Please verify your email.", Toast.LENGTH_SHORT).show()
 
-                // Sign out the user to prevent them from using the app without verification
-                auth.signOut()
+                 // Sign out the user to prevent them from using the app without verification
+                 auth.signOut()
 
-                // After sign-up, navigate to sign-in screen
-                navigateToSignInActivity()
-            }
-        }
-    }*/
+                 // After sign-up, navigate to sign-in screen
+                 navigateToSignInActivity()
+             }
+         }
+     }*/
     private fun openImagePicker() {
         val intent = Intent(Intent.ACTION_PICK)
         intent.type = "image/*"
@@ -128,7 +129,7 @@ class SignUpActivity : AppCompatActivity() {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == PICK_IMAGE_REQUEST && resultCode == RESULT_OK && data != null && data.data != null) {
             imageUri = data.data
-            binding.view.setImageURI(imageUri)
+            binding.profileImg.setImageURI(imageUri)
         }
     }
     private fun uploadProfilePicture(userId: String, uri: Uri, onSuccess: (String) -> Unit, onFailure: (Exception) -> Unit) {

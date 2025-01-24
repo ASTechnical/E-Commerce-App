@@ -13,7 +13,7 @@ import androidx.lifecycle.Observer
 import com.bumptech.glide.Glide
 import com.ecommerceapp.R
 import com.ecommerceapp.databinding.FragmentProfileBinding
-import com.ecommerceapp.presentation.viewModel.AppViewModel
+import com.ecommerceapp.domain.viewmodel.AppViewModel
 
 
 class ProfileFragment : Fragment() {
