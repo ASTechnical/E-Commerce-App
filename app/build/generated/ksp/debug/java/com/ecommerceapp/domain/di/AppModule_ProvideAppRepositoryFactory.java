@@ -1,6 +1,6 @@
 package com.ecommerceapp.domain.di;
 
-import com.ecommerceapp.data.repository.AppRepository;
+import com.ecommerceapp.data.repository.Repository;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
 import dagger.internal.DaggerGenerated;
@@ -25,7 +25,7 @@ import javax.inject.Provider;
     "KotlinInternalInJava",
     "cast"
 })
-public final class AppModule_ProvideAppRepositoryFactory implements Factory<AppRepository> {
+public final class AppModule_ProvideAppRepositoryFactory implements Factory<Repository> {
   private final Provider<FirebaseFirestore> firestoreProvider;
 
   private final Provider<FirebaseAuth> authProvider;
@@ -37,7 +37,7 @@ public final class AppModule_ProvideAppRepositoryFactory implements Factory<AppR
   }
 
   @Override
-  public AppRepository get() {
+  public Repository get() {
     return provideAppRepository(firestoreProvider.get(), authProvider.get());
   }
 
@@ -46,7 +46,7 @@ public final class AppModule_ProvideAppRepositoryFactory implements Factory<AppR
     return new AppModule_ProvideAppRepositoryFactory(firestoreProvider, authProvider);
   }
 
-  public static AppRepository provideAppRepository(FirebaseFirestore firestore, FirebaseAuth auth) {
+  public static Repository provideAppRepository(FirebaseFirestore firestore, FirebaseAuth auth) {
     return Preconditions.checkNotNullFromProvides(AppModule.INSTANCE.provideAppRepository(firestore, auth));
   }
 }

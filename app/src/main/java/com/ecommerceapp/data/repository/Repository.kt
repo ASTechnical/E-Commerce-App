@@ -15,7 +15,7 @@ import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
 
-class AppRepository @Inject constructor(
+class Repository @Inject constructor(
         private val firestore: FirebaseFirestore,
         val auth: FirebaseAuth
     ) {

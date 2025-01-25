@@ -1,7 +1,7 @@
 package com.ecommerceapp.domain.viewmodel;
 
 import android.app.Application;
-import com.ecommerceapp.data.repository.AppRepository;
+import com.ecommerceapp.data.repository.Repository;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
 import dagger.internal.QualifierMetadata;
@@ -24,11 +24,11 @@ import javax.inject.Provider;
     "cast"
 })
 public final class AppViewModel_Factory implements Factory<AppViewModel> {
-  private final Provider<AppRepository> appRepositoryProvider;
+  private final Provider<Repository> appRepositoryProvider;
 
   private final Provider<Application> applicationProvider;
 
-  public AppViewModel_Factory(Provider<AppRepository> appRepositoryProvider,
+  public AppViewModel_Factory(Provider<Repository> appRepositoryProvider,
       Provider<Application> applicationProvider) {
     this.appRepositoryProvider = appRepositoryProvider;
     this.applicationProvider = applicationProvider;
@@ -39,12 +39,12 @@ public final class AppViewModel_Factory implements Factory<AppViewModel> {
     return newInstance(appRepositoryProvider.get(), applicationProvider.get());
   }
 
-  public static AppViewModel_Factory create(Provider<AppRepository> appRepositoryProvider,
+  public static AppViewModel_Factory create(Provider<Repository> appRepositoryProvider,
       Provider<Application> applicationProvider) {
     return new AppViewModel_Factory(appRepositoryProvider, applicationProvider);
   }
 
-  public static AppViewModel newInstance(AppRepository appRepository, Application application) {
-    return new AppViewModel(appRepository, application);
+  public static AppViewModel newInstance(Repository repository, Application application) {
+    return new AppViewModel(repository, application);
   }
 }

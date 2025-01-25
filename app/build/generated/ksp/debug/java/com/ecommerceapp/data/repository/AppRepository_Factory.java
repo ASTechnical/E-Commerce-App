@@ -23,7 +23,7 @@ import javax.inject.Provider;
     "KotlinInternalInJava",
     "cast"
 })
-public final class AppRepository_Factory implements Factory<AppRepository> {
+public final class AppRepository_Factory implements Factory<Repository> {
   private final Provider<FirebaseFirestore> firestoreProvider;
 
   private final Provider<FirebaseAuth> authProvider;
@@ -35,7 +35,7 @@ public final class AppRepository_Factory implements Factory<AppRepository> {
   }
 
   @Override
-  public AppRepository get() {
+  public Repository get() {
     return newInstance(firestoreProvider.get(), authProvider.get());
   }
 
@@ -44,7 +44,7 @@ public final class AppRepository_Factory implements Factory<AppRepository> {
     return new AppRepository_Factory(firestoreProvider, authProvider);
   }
 
-  public static AppRepository newInstance(FirebaseFirestore firestore, FirebaseAuth auth) {
-    return new AppRepository(firestore, auth);
+  public static Repository newInstance(FirebaseFirestore firestore, FirebaseAuth auth) {
+    return new Repository(firestore, auth);
   }
 }

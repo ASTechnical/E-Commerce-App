@@ -2,7 +2,7 @@ package com.ecommerceapp.domain.di
 
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
-import com.ecommerceapp.data.repository.AppRepository
+import com.ecommerceapp.data.repository.Repository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -30,7 +30,7 @@ object AppModule {
     fun provideAppRepository(
         firestore: FirebaseFirestore,
         auth: FirebaseAuth
-    ): AppRepository {
-        return AppRepository(firestore, auth)
+    ): Repository {
+        return Repository(firestore, auth)
     }
 }

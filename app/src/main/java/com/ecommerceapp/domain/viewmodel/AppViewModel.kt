@@ -6,7 +6,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.ecommerceapp.data.repository.AppRepository
+import com.ecommerceapp.data.repository.Repository
 import com.ecommerceapp.models.CategoriesModel
 
 import com.ecommerceapp.models.ImageItemModel
@@ -23,7 +23,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class AppViewModel @Inject constructor(
-    private val appRepository: AppRepository,
+    private val repository: Repository,
     application: Application
 ) : AndroidViewModel(application) {
 
@@ -97,7 +97,7 @@ class AppViewModel @Inject constructor(
     ) {
         viewModelScope.launch(Dispatchers.IO) {
             try {
-                val userId = appRepository.signUpWithEmailPassword(email, password, name)
+                val userId = repository.signUpWithEmailPassword(email, password, name)
                 withContext(Dispatchers.Main) {
                     if (userId != null) {
                         onResult(userId)
@@ -123,7 +123,7 @@ class AppViewModel @Inject constructor(
     fun signInWithEmailPassword(email: String, password: String, onResult: (String?) -> Unit) {
         viewModelScope.launch(Dispatchers.IO) {
             try {
-                val userId = appRepository.signInWithEmailPassword(email, password)
+                val userId = repository.signInWithEmailPassword(email, password)
                 withContext(Dispatchers.Main) {
                     onResult(userId)
                 }
@@ -137,12 +137,12 @@ class AppViewModel @Inject constructor(
     }
 
     fun fetchUserData() {
-        val userId = appRepository.auth.currentUser?.uid
+        val userId = repository.auth.currentUser?.uid
         if (userId != null) {
             viewModelScope.launch(Dispatchers.IO) {
                 isLoading.postValue(true)
                 try {
-                    val data = appRepository.fetchUserData(userId)
+                    val data = repository.fetchUserData(userId)
                     withContext(Dispatchers.Main) {
                         userDataModel.value = data
                         if (data == null) {
@@ -187,7 +187,7 @@ class AppViewModel @Inject constructor(
             )
 
             try {
-                appRepository.addDummyProducts(products)
+                repository.addDummyProducts(products)
                 Log.d("Firestore", "Dummy products added successfully!")
             } catch (e: Exception) {
                 Log.w("Firestore", "Error adding dummy products: ${e.message}", e)
@@ -198,7 +198,7 @@ class AppViewModel @Inject constructor(
 
     fun getProductData() {
         fetchDataFromRepository(
-            fetchData = { appRepository.getProductData() },
+            fetchData = { repository.getProductData() },
             onSuccess = { result -> products.value = result },
             onError = { message -> _errorMessage.value = message }
         )
@@ -206,7 +206,7 @@ class AppViewModel @Inject constructor(
 
     fun getImageData() {
         fetchDataFromRepository(
-            fetchData = { appRepository.getImageData() },
+            fetchData = { repository.getImageData() },
             onSuccess = { result -> recommendedproduct.value = result },
             onError = { message -> _errorMessage.value = message }
         )
@@ -214,7 +214,7 @@ class AppViewModel @Inject constructor(
 
     fun getTrendingpProductData() {
         fetchDataFromRepository(
-            fetchData = { appRepository.getTrendingpProductData() },
+            fetchData = { repository.getTrendingpProductData() },
             onSuccess = { result -> products.value = result },
             onError = { message -> _errorMessage.value = message }
         )
@@ -222,7 +222,7 @@ class AppViewModel @Inject constructor(
 
     fun getAccessoriesProductData() {
         fetchDataFromRepository(
-            fetchData = { appRepository.getAccessoriesProductData() },
+            fetchData = { repository.getAccessoriesProductData() },
             onSuccess = { result -> categoryProducts.value = result },
             onError = { message -> _errorMessage.value = message }
         )
@@ -230,7 +230,7 @@ class AppViewModel @Inject constructor(
 
     fun getGridProductData() {
         fetchDataFromRepository(
-            fetchData = { appRepository.getGrideProductData() },
+            fetchData = { repository.getGrideProductData() },
             onSuccess = { result -> products.value = result },
             onError = { message -> _errorMessage.value = message }
         )
@@ -238,7 +238,7 @@ class AppViewModel @Inject constructor(
 
     fun getSpecialTrendingProductData() {
         fetchDataFromRepository(
-            fetchData = { appRepository.getSpecialTrendingProductData() },
+            fetchData = { repository.getSpecialTrendingProductData() },
             onSuccess = { result -> products.value = result },
             onError = { message -> _errorMessage.value = message }
         )
@@ -246,7 +246,7 @@ class AppViewModel @Inject constructor(
 
     fun getProductdown() {
         fetchDataFromRepository(
-            fetchData = { appRepository.getProductdown() },
+            fetchData = { repository.getProductdown() },
             onSuccess = { result -> products.value = result },
             onError = { message -> _errorMessage.value = message }
         )
@@ -255,7 +255,7 @@ class AppViewModel @Inject constructor(
 
     fun getGridProductData2() {
         fetchDataFromRepository(
-            fetchData = { appRepository.getGrideProductData2() },
+            fetchData = { repository.getGrideProductData2() },
             onSuccess = { result -> products.value = result },
             onError = { message -> _errorMessage.value = message }
         )
@@ -263,7 +263,7 @@ class AppViewModel @Inject constructor(
 
     fun getChildernProductData() {
         fetchDataFromRepository(
-            fetchData = { appRepository.getChildernProductData() },
+            fetchData = { repository.getChildernProductData() },
             onSuccess = { result -> recommendedproduct.value = result },
             onError = { message -> _errorMessage.value = message }
         )
@@ -271,7 +271,7 @@ class AppViewModel @Inject constructor(
 
     fun getChildernCenterProductData() {
         fetchDataFromRepository(
-            fetchData = { appRepository.getChildernCenterProductData() },
+            fetchData = { repository.getChildernCenterProductData() },
             onSuccess = { result -> products.value = result },
             onError = { message -> _errorMessage.value = message }
         )
@@ -279,7 +279,7 @@ class AppViewModel @Inject constructor(
 
     fun getChildernCenterProductDataUp() {
         fetchDataFromRepository(
-            fetchData = { appRepository.getChildernCenterProductDataUp() },
+            fetchData = { repository.getChildernCenterProductDataUp() },
             onSuccess = { result -> products.value = result },
             onError = { message -> _errorMessage.value = message }
         )
@@ -287,7 +287,7 @@ class AppViewModel @Inject constructor(
 
     fun getChildernCenterProductDataDown() {
         fetchDataFromRepository(
-            fetchData = { appRepository.getChildernCenterProductDataDown() },
+            fetchData = { repository.getChildernCenterProductDataDown() },
             onSuccess = { result -> products.value = result },
             onError = { message -> _errorMessage.value = message }
         )
@@ -296,7 +296,7 @@ class AppViewModel @Inject constructor(
     // new line
     fun getRecommendedProductData() {
         fetchDataFromRepository(
-            fetchData = { appRepository.getRecommendedProductData() },
+            fetchData = { repository.getRecommendedProductData() },
             onSuccess = { result -> recommendedproduct.value = result },
             onError = { message -> _errorMessage.value = message }
         )
@@ -304,7 +304,7 @@ class AppViewModel @Inject constructor(
 
     fun getRecommendedCenterProductData() {
         fetchDataFromRepository(
-            fetchData = { appRepository.getRecommendedCenterProductData() },
+            fetchData = { repository.getRecommendedCenterProductData() },
             onSuccess = { result -> products.value = result },
             onError = { message -> _errorMessage.value = message }
         )
@@ -312,7 +312,7 @@ class AppViewModel @Inject constructor(
 
     fun getRecommendedProductDataUp() {
         fetchDataFromRepository(
-            fetchData = { appRepository.getRecommendedProductDataUp() },
+            fetchData = { repository.getRecommendedProductDataUp() },
             onSuccess = { result -> products.value = result },
             onError = { message -> _errorMessage.value = message }
         )
@@ -320,7 +320,7 @@ class AppViewModel @Inject constructor(
 
     fun getRecommendedCenterProductDataDown() {
         fetchDataFromRepository(
-            fetchData = { appRepository.getRecommendedCenterProductDataDown() },
+            fetchData = { repository.getRecommendedCenterProductDataDown() },
             onSuccess = { result -> products.value = result },
             onError = { message -> _errorMessage.value = message }
         )
@@ -328,7 +328,7 @@ class AppViewModel @Inject constructor(
 
     fun getChildernOfferProductData() {
         fetchDataFromRepository(
-            fetchData = { appRepository.getChildernOfferProductData() },
+            fetchData = { repository.getChildernOfferProductData() },
             onSuccess = { result -> products.value = result },
             onError = { message -> _errorMessage.value = message }
         )
@@ -343,7 +343,7 @@ class AppViewModel @Inject constructor(
         viewModelScope.launch(Dispatchers.IO) {
             isLoading.postValue(true)
             try {
-                val result = appRepository.addUserToFirestore(userId, name, profileImageUrl)
+                val result = repository.addUserToFirestore(userId, name, profileImageUrl)
                 withContext(Dispatchers.Main) {
                     onResult(result)
                     if (result) {
@@ -366,14 +366,14 @@ class AppViewModel @Inject constructor(
     fun fetchCategoryProducts(categoryName: String) {
         // Fetch special offer products
         fetchDataFromRepository(
-            fetchData = { appRepository.getCategoryProductsByType(categoryName, "specialOffer") },
+            fetchData = { repository.getCategoryProductsByType(categoryName, "specialOffer") },
             onSuccess = { products -> _specialOffers.value = products },
             onError = { error -> _errorMessage.value = error }
         )
 
         // Fetch new product products
         fetchDataFromRepository(
-            fetchData = { appRepository.getCategoryProductsByType(categoryName, "newProduct") },
+            fetchData = { repository.getCategoryProductsByType(categoryName, "newProduct") },
             onSuccess = { products -> _newProducts.value = products },
             onError = { error -> _errorMessage.value = error }
         )
