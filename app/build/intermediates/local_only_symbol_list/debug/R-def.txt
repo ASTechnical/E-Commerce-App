@@ -109,8 +109,11 @@ id Twitter
 id Women
 id account
 id account_icon
+id action_childrenFragment_to_orderFragment
 id action_favouriteFragment_to_catogeryFragment
+id action_favouriteFragment_to_orderFragment
 id action_homeFragment_to_catogeryFragment
+id action_homeFragment_to_orderFragment
 id action_homeFragment_to_profileFragment
 id action_profileFragment_to_homeFragment
 id all
@@ -188,6 +191,7 @@ id nestedScrollView
 id newProductsRecyclerView
 id oldordericon
 id oldordertext
+id orderFragment
 id overlay_view
 id parentLinearyLayout
 id parentTv
@@ -268,6 +272,7 @@ layout fragment_catogery
 layout fragment_children
 layout fragment_favourite
 layout fragment_home
+layout fragment_order
 layout fragment_profile
 layout fragment_recommended
 layout fragment_t_shirts

@@ -127,7 +127,7 @@ class HomeFragment : Fragment(),OnClick {
     }
 
     override fun click(item: ItemModel) {
-        val action = HomeFragmentDirections.actionHomeFragmentToCatogeryFragment(item)
+        val action = HomeFragmentDirections.actionHomeFragmentToOrderFragment(item)
         navController.navigate(action)
     }
 

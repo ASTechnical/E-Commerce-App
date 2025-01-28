@@ -12,6 +12,7 @@ import com.ecommerceapp.presentation.ui.activities.SignUpActivity_GeneratedInjec
 import com.ecommerceapp.presentation.ui.fragments.CategoryFragment_GeneratedInjector;
 import com.ecommerceapp.presentation.ui.fragments.FavouriteFragment_GeneratedInjector;
 import com.ecommerceapp.presentation.ui.fragments.HomeFragment_GeneratedInjector;
+import com.ecommerceapp.presentation.ui.fragments.OrderFragment_GeneratedInjector;
 import com.ecommerceapp.presentation.ui.fragments.home.ChildrenFragment_GeneratedInjector;
 import com.ecommerceapp.presentation.ui.fragments.home.RecommendedFragment_GeneratedInjector;
 import com.ecommerceapp.presentation.ui.fragments.home.TShirtsFragment_GeneratedInjector;
@@ -237,6 +238,7 @@ public final class MyApplication_HiltComponents {
   public abstract static class FragmentC implements CategoryFragment_GeneratedInjector,
       FavouriteFragment_GeneratedInjector,
       HomeFragment_GeneratedInjector,
+      OrderFragment_GeneratedInjector,
       ChildrenFragment_GeneratedInjector,
       RecommendedFragment_GeneratedInjector,
       TShirtsFragment_GeneratedInjector,

@@ -118,17 +118,18 @@
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
             android:background="#1F2C34"
-            android:paddingHorizontal="15dp"
+            android:paddingHorizontal="@dimen/_8sdp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
 
             <LinearLayout
                 android:id="@+id/home"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:gravity="center"
                 android:orientation="vertical"
+                android:layout_marginHorizontal="@dimen/_8sdp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/category"
                 app:layout_constraintHorizontal_bias="0.5"
@@ -144,24 +145,24 @@
                     android:contentDescription="@string/pp"
                     app:itemIconTint="@drawable/selector_menu"
                     android:src="@drawable/home"
-                    />
+                    app:tint="@color/pinkColor" />
 
                 <TextView
                     android:id="@+id/txt_home"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
                     android:text="@string/home_text"
                     android:textAllCaps="false"
-                    android:textColor="@color/white"
+                    android:textColor="@color/pinkColor"
                     android:textSize="12sp" />
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/category"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
                 android:gravity="center"
+                android:layout_marginHorizontal="@dimen/_8sdp"
                 android:orientation="vertical"
                 app:layout_constraintBottom_toBottomOf="@+id/home"
                 app:layout_constraintEnd_toStartOf="@+id/favtLayout"
@@ -191,9 +192,10 @@
 
             <LinearLayout
                 android:id="@+id/favtLayout"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
                 android:gravity="center"
+                android:layout_marginHorizontal="@dimen/_8sdp"
                 android:orientation="vertical"
                 app:layout_constraintBottom_toBottomOf="@+id/home"
                 app:layout_constraintEnd_toStartOf="@+id/account"
@@ -223,10 +225,11 @@
 
             <LinearLayout
                 android:id="@+id/account"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
                 android:gravity="center"
                 android:orientation="vertical"
+                android:layout_marginHorizontal="@dimen/_8sdp"
                 app:layout_constraintBottom_toBottomOf="@+id/home"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"

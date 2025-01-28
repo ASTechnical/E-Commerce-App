@@ -4127,11 +4127,14 @@ int id action_bar_root 0x7f0a0040
 int id action_bar_spinner 0x7f0a0041
 int id action_bar_subtitle 0x7f0a0042
 int id action_bar_title 0x7f0a0043
+int id action_childrenFragment_to_orderFragment 0x7f0a02a7
 int id action_container 0x7f0a0044
 int id action_context_bar 0x7f0a0045
 int id action_divider 0x7f0a0046
 int id action_favouriteFragment_to_catogeryFragment 0x7f0a02a6
+int id action_favouriteFragment_to_orderFragment 0x7f0a02a8
 int id action_homeFragment_to_catogeryFragment 0x7f0a0047
+int id action_homeFragment_to_orderFragment 0x7f0a02a9
 int id action_homeFragment_to_profileFragment 0x7f0a0048
 int id action_image 0x7f0a0049
 int id action_menu_divider 0x7f0a004a
@@ -4504,6 +4507,7 @@ int id open_search_view_search_prefix 0x7f0a01b8
 int id open_search_view_status_bar_spacer 0x7f0a01b9
 int id open_search_view_toolbar 0x7f0a01ba
 int id open_search_view_toolbar_container 0x7f0a01bb
+int id orderFragment 0x7f0a02aa
 int id outline 0x7f0a01bc
 int id outward 0x7f0a01bd
 int id overlay_view 0x7f0a01be
@@ -4886,6 +4890,7 @@ int layout fragment_catogery 0x7f0d0038
 int layout fragment_children 0x7f0d0039
 int layout fragment_favourite 0x7f0d003a
 int layout fragment_home 0x7f0d003b
+int layout fragment_order 0x7f0d0090
 int layout fragment_profile 0x7f0d003c
 int layout fragment_recommended 0x7f0d003d
 int layout fragment_t_shirts 0x7f0d003e

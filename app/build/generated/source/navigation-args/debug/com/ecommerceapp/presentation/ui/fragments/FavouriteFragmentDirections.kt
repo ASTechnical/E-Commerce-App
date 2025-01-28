@@ -28,8 +28,29 @@ public class FavouriteFragmentDirections private constructor() {
       }
   }
 
+  private data class ActionFavouriteFragmentToOrderFragment(
+    public val itemModel: ItemModel? = null,
+  ) : NavDirections {
+    public override val actionId: Int = R.id.action_favouriteFragment_to_orderFragment
+
+    public override val arguments: Bundle
+      @Suppress("CAST_NEVER_SUCCEEDS")
+      get() {
+        val result = Bundle()
+        if (Parcelable::class.java.isAssignableFrom(ItemModel::class.java)) {
+          result.putParcelable("itemModel", this.itemModel as Parcelable?)
+        } else if (Serializable::class.java.isAssignableFrom(ItemModel::class.java)) {
+          result.putSerializable("itemModel", this.itemModel as Serializable?)
+        }
+        return result
+      }
+  }
+
   public companion object {
     public fun actionFavouriteFragmentToCatogeryFragment(itemModel: ItemModel? = null):
         NavDirections = ActionFavouriteFragmentToCatogeryFragment(itemModel)
+
+    public fun actionFavouriteFragmentToOrderFragment(itemModel: ItemModel? = null): NavDirections =
+        ActionFavouriteFragmentToOrderFragment(itemModel)
   }
 }

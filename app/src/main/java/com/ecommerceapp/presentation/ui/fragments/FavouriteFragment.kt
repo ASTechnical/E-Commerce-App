@@ -73,7 +73,7 @@ class FavouriteFragment : Fragment(),OnClick {
     }
 
     override fun click(item: ItemModel) {
-        val action = FavouriteFragmentDirections.actionFavouriteFragmentToCatogeryFragment(item)
+        val action = FavouriteFragmentDirections.actionFavouriteFragmentToOrderFragment(item)
         navController.navigate(action)
     }
 }

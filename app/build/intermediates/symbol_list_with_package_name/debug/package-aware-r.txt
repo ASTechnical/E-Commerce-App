@@ -4128,11 +4128,14 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_childrenFragment_to_orderFragment
 id action_container
 id action_context_bar
 id action_divider
 id action_favouriteFragment_to_catogeryFragment
+id action_favouriteFragment_to_orderFragment
 id action_homeFragment_to_catogeryFragment
+id action_homeFragment_to_orderFragment
 id action_homeFragment_to_profileFragment
 id action_image
 id action_menu_divider
@@ -4505,6 +4508,7 @@ id open_search_view_search_prefix
 id open_search_view_status_bar_spacer
 id open_search_view_toolbar
 id open_search_view_toolbar_container
+id orderFragment
 id outline
 id outward
 id overlay_view
@@ -4887,6 +4891,7 @@ layout fragment_catogery
 layout fragment_children
 layout fragment_favourite
 layout fragment_home
+layout fragment_order
 layout fragment_profile
 layout fragment_recommended
 layout fragment_t_shirts
