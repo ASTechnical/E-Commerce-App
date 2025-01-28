@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity(),
         }
 
         // Observe isLoading LiveData
-        viewModel.isLoading.observe(this) { isLoading ->
+        viewModel.isLoading.observe(this) {
             // Show or hide the loading indicator
             //  binding.loadingProgressBar.visibility = if (isLoading) View.VISIBLE else View.GONE
         }

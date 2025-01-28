@@ -1,7 +1,7 @@
 package com.ecommerceapp.domain.viewmodel;
 
 import android.app.Application;
-import com.ecommerceapp.data.repository.AppRepository;
+import com.ecommerceapp.data.repository.Repository;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
 import dagger.internal.QualifierMetadata;
@@ -24,27 +24,27 @@ import javax.inject.Provider;
     "cast"
 })
 public final class AppViewModel_Factory implements Factory<AppViewModel> {
-  private final Provider<AppRepository> appRepositoryProvider;
+  private final Provider<Repository> repositoryProvider;
 
   private final Provider<Application> applicationProvider;
 
-  public AppViewModel_Factory(Provider<AppRepository> appRepositoryProvider,
+  public AppViewModel_Factory(Provider<Repository> repositoryProvider,
       Provider<Application> applicationProvider) {
-    this.appRepositoryProvider = appRepositoryProvider;
+    this.repositoryProvider = repositoryProvider;
     this.applicationProvider = applicationProvider;
   }
 
   @Override
   public AppViewModel get() {
-    return newInstance(appRepositoryProvider.get(), applicationProvider.get());
+    return newInstance(repositoryProvider.get(), applicationProvider.get());
   }
 
-  public static AppViewModel_Factory create(Provider<AppRepository> appRepositoryProvider,
+  public static AppViewModel_Factory create(Provider<Repository> repositoryProvider,
       Provider<Application> applicationProvider) {
-    return new AppViewModel_Factory(appRepositoryProvider, applicationProvider);
+    return new AppViewModel_Factory(repositoryProvider, applicationProvider);
   }
 
-  public static AppViewModel newInstance(AppRepository appRepository, Application application) {
-    return new AppViewModel(appRepository, application);
+  public static AppViewModel newInstance(Repository repository, Application application) {
+    return new AppViewModel(repository, application);
   }
 }

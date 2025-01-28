@@ -73,6 +73,7 @@ class FavouriteFragment : Fragment(),OnClick {
     }
 
     override fun click(item: ItemModel) {
-        TODO("Not yet implemented")
+        val action = FavouriteFragmentDirections.actionFavouriteFragmentToCatogeryFragment(item)
+        navController.navigate(action)
     }
 }

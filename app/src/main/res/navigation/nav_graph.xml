@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/catogeryFragment"
-        android:name="com.ecommerceapp.presentation.ui.fragments.CatogeryFragment"
+        android:name="com.ecommerceapp.presentation.ui.fragments.CategoryFragment"
         android:label="fragment_catogery"
         tools:layout="@layout/fragment_catogery">
         <argument
@@ -63,6 +63,15 @@
         android:id="@+id/favouriteFragment"
         android:name="com.ecommerceapp.presentation.ui.fragments.FavouriteFragment"
         android:label="fragment_favourite"
-        tools:layout="@layout/fragment_favourite"/>
+        tools:layout="@layout/fragment_favourite">
+        <action
+            android:id="@+id/action_favouriteFragment_to_catogeryFragment"
+            app:destination="@id/catogeryFragment" />
+        <argument
+            android:name="itemModel"
+            app:argType="com.ecommerceapp.models.ItemModel"
+            android:defaultValue="@null"
+            app:nullable="true"/>
+    </fragment>
 
 </navigation>

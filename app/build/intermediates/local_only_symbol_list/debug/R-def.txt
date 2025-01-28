@@ -39,7 +39,7 @@ color tranColor2
 color transperent
 color white
 drawable account
-drawable accountforget
+drawable account_forget
 drawable accounts
 drawable accountsignup
 drawable background
@@ -109,6 +109,7 @@ id Twitter
 id Women
 id account
 id account_icon
+id action_favouriteFragment_to_catogeryFragment
 id action_homeFragment_to_catogeryFragment
 id action_homeFragment_to_profileFragment
 id action_profileFragment_to_homeFragment
@@ -311,6 +312,7 @@ string category
 string category_txt
 string children
 string dark_mode
+string email
 string exit_application
 string fav_product
 string favorites

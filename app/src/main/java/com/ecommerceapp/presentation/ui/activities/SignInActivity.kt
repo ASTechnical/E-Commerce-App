@@ -27,7 +27,6 @@ class SignInActivity : AppCompatActivity() {
 
         val user = auth.currentUser
         if (user != null && user.isEmailVerified) {
-            // User is signed in and email is verified, navigate to HomeActivity
             navigateToHomeActivity()
         }
 
