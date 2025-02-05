@@ -92,7 +92,15 @@ dependencies {
     implementation ("org.jetbrains.kotlin:kotlin-parcelize-runtime:1.6.10" )
     implementation ("androidx.core:core-ktx:1.9.0")
 
-    implementation("androidx.navigation:navigation-fragment-ktx:2.8.5")
+    implementation("androidx.navigation:navigation-fragment-ktx:2.8.6")
     implementation("androidx.navigation:navigation-ui-ktx:2.8.5")
 
+        implementation ("com.github.QuadFlask:colorpicker:0.0.13")  // Add this dependency for the color picker
+
+
 }
+
+
+
+
+

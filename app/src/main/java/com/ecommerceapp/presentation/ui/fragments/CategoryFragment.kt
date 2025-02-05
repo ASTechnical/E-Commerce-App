@@ -12,6 +12,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.viewModels
+import androidx.navigation.NavController
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.GridLayoutManager
 import com.ecommerceapp.R
@@ -24,6 +26,8 @@ import dagger.hilt.android.AndroidEntryPoint
 class CategoryFragment : Fragment() {
 
     private var _binding: FragmentCatogeryBinding? = null
+    //new line
+    private lateinit var navController: NavController
     private val binding get() = _binding!!
     private lateinit var specialOffersAdapter: AccessoriesAdapter
 
@@ -41,6 +45,8 @@ class CategoryFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         context= requireContext()
         setupRecyclerViews()
+
+
         setupCategoryClickListeners()
         val passedItem = args.itemModel
         Log.d("CategoryFragment", "Received item: $passedItem")
@@ -174,6 +180,11 @@ class CategoryFragment : Fragment() {
             button.setBackgroundColor(resources.getColor(R.color.backgroungseletedcolor))  // Default background color
             button.setTypeface(null, Typeface.BOLD)
         }
+
+
+
+
     }
+
 
 }
