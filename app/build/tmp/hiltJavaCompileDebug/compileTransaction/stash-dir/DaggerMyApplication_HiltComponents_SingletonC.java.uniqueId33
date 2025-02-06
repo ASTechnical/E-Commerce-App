@@ -11,7 +11,6 @@ import com.ecommerceapp.data.repository.Repository;
 import com.ecommerceapp.domain.di.AppModule_ProvideAppRepositoryFactory;
 import com.ecommerceapp.domain.di.AppModule_ProvideFirebaseAuthFactory;
 import com.ecommerceapp.domain.di.AppModule_ProvideFirebaseFirestoreFactory;
-import com.ecommerceapp.domain.viewmodel.AppViewModel;
 import com.ecommerceapp.domain.viewmodel.AppViewModel_HiltModules;
 import com.ecommerceapp.presentation.ui.activities.EnterOtpActivity;
 import com.ecommerceapp.presentation.ui.activities.ForgetPasswordActivity;
@@ -28,6 +27,7 @@ import com.ecommerceapp.presentation.ui.fragments.home.ChildrenFragment;
 import com.ecommerceapp.presentation.ui.fragments.home.RecommendedFragment;
 import com.ecommerceapp.presentation.ui.fragments.home.TShirtsFragment;
 import com.ecommerceapp.presentation.ui.fragments.home.TrendingFragment;
+import com.ecommerceapp.presentation.viewModel.AppViewModel;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ImmutableSet;
 import com.google.firebase.auth.FirebaseAuth;
@@ -469,15 +469,15 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
 
     @IdentifierNameString
     private static final class LazyClassKeyProvider {
-      static String com_ecommerceapp_domain_viewmodel_AppViewModel = "com.ecommerceapp.domain.viewmodel.AppViewModel";
-
       static String com_ecommerceapp_presentation_viewModel_AppViewModel = "com.ecommerceapp.presentation.viewModel.AppViewModel";
 
-      @KeepFieldType
-      AppViewModel com_ecommerceapp_domain_viewmodel_AppViewModel2;
+      static String com_ecommerceapp_domain_viewmodel_AppViewModel = "com.ecommerceapp.domain.viewmodel.AppViewModel";
 
       @KeepFieldType
-      com.ecommerceapp.presentation.viewModel.AppViewModel com_ecommerceapp_presentation_viewModel_AppViewModel2;
+      AppViewModel com_ecommerceapp_presentation_viewModel_AppViewModel2;
+
+      @KeepFieldType
+      com.ecommerceapp.domain.viewmodel.AppViewModel com_ecommerceapp_domain_viewmodel_AppViewModel2;
     }
   }
 
@@ -488,9 +488,9 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
 
     private final ViewModelCImpl viewModelCImpl = this;
 
-    private Provider<AppViewModel> appViewModelProvider;
+    private Provider<com.ecommerceapp.domain.viewmodel.AppViewModel> appViewModelProvider;
 
-    private Provider<com.ecommerceapp.presentation.viewModel.AppViewModel> appViewModelProvider2;
+    private Provider<AppViewModel> appViewModelProvider2;
 
     private ViewModelCImpl(SingletonCImpl singletonCImpl,
         ActivityRetainedCImpl activityRetainedCImpl, SavedStateHandle savedStateHandleParam,
@@ -521,15 +521,15 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
 
     @IdentifierNameString
     private static final class LazyClassKeyProvider {
-      static String com_ecommerceapp_presentation_viewModel_AppViewModel = "com.ecommerceapp.presentation.viewModel.AppViewModel";
-
       static String com_ecommerceapp_domain_viewmodel_AppViewModel = "com.ecommerceapp.domain.viewmodel.AppViewModel";
 
-      @KeepFieldType
-      com.ecommerceapp.presentation.viewModel.AppViewModel com_ecommerceapp_presentation_viewModel_AppViewModel2;
+      static String com_ecommerceapp_presentation_viewModel_AppViewModel = "com.ecommerceapp.presentation.viewModel.AppViewModel";
 
       @KeepFieldType
-      AppViewModel com_ecommerceapp_domain_viewmodel_AppViewModel2;
+      com.ecommerceapp.domain.viewmodel.AppViewModel com_ecommerceapp_domain_viewmodel_AppViewModel2;
+
+      @KeepFieldType
+      AppViewModel com_ecommerceapp_presentation_viewModel_AppViewModel2;
     }
 
     private static final class SwitchingProvider<T> implements Provider<T> {
@@ -554,10 +554,10 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
       public T get() {
         switch (id) {
           case 0: // com.ecommerceapp.domain.viewmodel.AppViewModel 
-          return (T) new AppViewModel(singletonCImpl.provideAppRepositoryProvider.get(), ApplicationContextModule_ProvideApplicationFactory.provideApplication(singletonCImpl.applicationContextModule));
+          return (T) new com.ecommerceapp.domain.viewmodel.AppViewModel(singletonCImpl.provideAppRepositoryProvider.get(), ApplicationContextModule_ProvideApplicationFactory.provideApplication(singletonCImpl.applicationContextModule));
 
           case 1: // com.ecommerceapp.presentation.viewModel.AppViewModel 
-          return (T) new com.ecommerceapp.presentation.viewModel.AppViewModel(singletonCImpl.provideAppRepositoryProvider.get(), ApplicationContextModule_ProvideApplicationFactory.provideApplication(singletonCImpl.applicationContextModule));
+          return (T) new AppViewModel(singletonCImpl.provideAppRepositoryProvider.get(), ApplicationContextModule_ProvideApplicationFactory.provideApplication(singletonCImpl.applicationContextModule));
 
           default: throw new AssertionError(id);
         }
