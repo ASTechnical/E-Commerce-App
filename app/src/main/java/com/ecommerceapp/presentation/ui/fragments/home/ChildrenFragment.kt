@@ -19,6 +19,7 @@ import com.ecommerceapp.presentation.adapters.ImageAdapter
 import com.ecommerceapp.presentation.adapters.SpecialOfferAdapter
 import com.ecommerceapp.presentation.adapters.SpecialOfferAdapter2
 import com.ecommerceapp.domain.viewmodel.AppViewModel
+import com.ecommerceapp.presentation.ui.fragments.HomeFragmentDirections
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -130,6 +131,7 @@ class ChildrenFragment : Fragment(),OnClick {
     }
 
     override fun click(item: ItemModel) {
-        TODO("Not yet implemented")
+        val action = HomeFragmentDirections.actionHomeFragmentToOrderFragment(item)
+        navController.navigate(action)
     }
 }
