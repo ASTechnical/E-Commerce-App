@@ -12,12 +12,12 @@
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-mergeDebugResources-60:\\layout\\fragment_t_shirts.xml",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\layout\\fragment_t_shirts.xml"
-    },
-    {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-mergeDebugResources-60:\\layout\\nav_menu_item_favourite.xml",
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\layout\\nav_menu_item_favourite.xml"
+    },
+    {
+        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-mergeDebugResources-60:\\layout\\fragment_t_shirts.xml",
+        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\layout\\fragment_t_shirts.xml"
     },
     {
         "merged": "com.ecommerceapp-mergeDebugResources-60:/layout/activity_main.xml",
@@ -86,6 +86,10 @@
     {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-mergeDebugResources-60:\\layout\\nav_header_layout.xml",
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\layout\\nav_header_layout.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-mergeDebugResources-60:/layout/fragment_order.xml",
+        "source": "com.ecommerceapp-main-63:/layout/fragment_order.xml"
     },
     {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-mergeDebugResources-60:\\layout\\fragment_catogery.xml",

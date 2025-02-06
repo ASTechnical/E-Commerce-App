@@ -4,8 +4,8 @@ package com.ecommerceapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,7 +20,7 @@ import java.lang.String;
 
 public final class FragmentOrderBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
   public final CardView cardView;
@@ -46,7 +46,7 @@ public final class FragmentOrderBinding implements ViewBinding {
   @NonNull
   public final TextView textView8;
 
-  private FragmentOrderBinding(@NonNull FrameLayout rootView, @NonNull CardView cardView,
+  private FragmentOrderBinding(@NonNull LinearLayout rootView, @NonNull CardView cardView,
       @NonNull ConstraintLayout forCardView, @NonNull ConstraintLayout forTextcardView,
       @NonNull ImageView imageView, @NonNull ImageView imageView3, @NonNull TextView parentTv,
       @NonNull ImageView textView3, @NonNull TextView textView8) {
@@ -63,7 +63,7 @@ public final class FragmentOrderBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -136,7 +136,7 @@ public final class FragmentOrderBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentOrderBinding((FrameLayout) rootView, cardView, forCardView,
+      return new FragmentOrderBinding((LinearLayout) rootView, cardView, forCardView,
           forTextcardView, imageView, imageView3, parentTv, textView3, textView8);
     }
     String missingId = rootView.getResources().getResourceName(id);

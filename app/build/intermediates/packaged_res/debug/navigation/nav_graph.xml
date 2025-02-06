@@ -45,6 +45,11 @@
         <action
             android:id="@+id/action_childrenFragment_to_orderFragment"
             app:destination="@id/orderFragment" />
+        <argument
+            android:name="itemModel"
+            app:argType="com.ecommerceapp.models.ItemModel"
+            android:defaultValue="@null"
+            app:nullable="true"/>
     </fragment>
     <fragment
         android:id="@+id/recommendedFragment"

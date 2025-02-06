@@ -16,12 +16,12 @@
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\drawable\\support.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-61:\\drawable_google.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\drawable\\google.png"
-    },
-    {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-61:\\layout_nav_menu_item_home.xml.flat",
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\layout\\nav_menu_item_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-61:\\drawable_google.png.flat",
+        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\drawable\\google.png"
     },
     {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-61:\\drawable_ic_launcher_foreground.xml.flat",
@@ -88,12 +88,12 @@
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\drawable\\darkmode.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-61:\\drawable_rectanglea.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\drawable\\rectanglea.png"
-    },
-    {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-61:\\drawable_favourite.xml.flat",
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\drawable\\favourite.xml"
+    },
+    {
+        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-61:\\drawable_rectanglea.png.flat",
+        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\drawable\\rectanglea.png"
     },
     {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-61:\\drawable_more.xml.flat",
@@ -156,12 +156,12 @@
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-61:\\drawable_sendotp.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\drawable\\sendotp.png"
-    },
-    {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-61:\\layout_chilern_image_item.xml.flat",
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\layout\\chilern_image_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-61:\\drawable_sendotp.png.flat",
+        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\drawable\\sendotp.png"
     },
     {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-61:\\drawable_ic_error.xml.flat",
@@ -290,6 +290,10 @@
     {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-61:\\drawable_accountsignup.png.flat",
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\drawable\\accountsignup.png"
+    },
+    {
+        "merged": "com.ecommerceapp-merged_res-61:/navigation_nav_graph.xml.flat",
+        "source": "com.ecommerceapp-main-63:/navigation/nav_graph.xml"
     },
     {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-61:\\layout_activity_main.xml.flat",
@@ -450,5 +454,9 @@
     {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-61:\\drawable_home.xml.flat",
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-63:\\drawable\\home.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-merged_res-61:/layout_fragment_order.xml.flat",
+        "source": "com.ecommerceapp-main-63:/layout/fragment_order.xml"
     }
 ]
