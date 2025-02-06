@@ -9,7 +9,11 @@
     tools:context=".presentation.ui.fragments.OrderFragment">
 
 
+<<<<<<< HEAD
     <androidx.constraintlayout.widget.ConstraintLayout
+=======
+  <!--  <androidx.constraintlayout.widget.ConstraintLayout
+>>>>>>> 9edb82759149d3fe1649b7bb02abbd8504f27957
         android:id="@+id/for_cardView"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_300sdp">
@@ -35,7 +39,11 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+<<<<<<< HEAD
             <!-- Inner layout for CardView -->
+=======
+            &lt;!&ndash; Inner layout for CardView &ndash;&gt;
+>>>>>>> 9edb82759149d3fe1649b7bb02abbd8504f27957
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="@dimen/_20sdp"
@@ -53,7 +61,11 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+<<<<<<< HEAD
     <!-- Inner layout for text below CardView -->
+=======
+    &lt;!&ndash; Inner layout for text below CardView &ndash;&gt;
+>>>>>>> 9edb82759149d3fe1649b7bb02abbd8504f27957
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -108,3 +120,21 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </LinearLayout>
+<<<<<<< HEAD
+=======
+--> <Button
+    android:id="@+id/selectColorButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Select Shirt Color"
+    android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/shirtImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/shirt_image"
+        android:layout_below="@id/selectColorButton"
+        android:layout_centerHorizontal="true"/>
+    </LinearLayout>
+>>>>>>> 9edb82759149d3fe1649b7bb02abbd8504f27957

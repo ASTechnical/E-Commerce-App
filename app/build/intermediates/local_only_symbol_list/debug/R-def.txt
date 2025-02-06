@@ -29,6 +29,7 @@ color light_app
 color light_gray
 color orangeColor
 color pinkColor
+color red
 color red_color
 color sens
 color shimmerColor
@@ -38,6 +39,7 @@ color tranColor
 color tranColor2
 color transperent
 color white
+color yellow
 drawable account
 drawable account_forget
 drawable accounts
@@ -88,6 +90,7 @@ drawable seekbar
 drawable selector_menu
 drawable sendotp
 drawable shirt
+drawable shirt_image
 drawable signboard3
 drawable signboard4
 drawable signboard5
@@ -110,7 +113,6 @@ id Women
 id account
 id account_icon
 id action_childrenFragment_to_orderFragment
-id action_favouriteFragment_to_catogeryFragment
 id action_favouriteFragment_to_orderFragment
 id action_homeFragment_to_catogeryFragment
 id action_homeFragment_to_orderFragment
@@ -119,6 +121,7 @@ id action_profileFragment_to_homeFragment
 id all
 id bakeweare
 id bottom_nav
+id button
 id cancelicon
 id canceltext
 id cardView
@@ -210,7 +213,9 @@ id rectanglebottom
 id recyclerView
 id relativeLayoutAbout
 id see_all_upcoming
+id selectColorButton
 id sendButton
+id shirtImageView
 id signIn
 id signUpButton
 id specialOffersRecyclerView
@@ -268,6 +273,7 @@ layout activity_sign_in
 layout activity_sign_up
 layout category_design_layout
 layout chilern_image_item
+layout fragment_blank
 layout fragment_catogery
 layout fragment_children
 layout fragment_favourite
@@ -276,6 +282,7 @@ layout fragment_order
 layout fragment_profile
 layout fragment_recommended
 layout fragment_t_shirts
+layout fragment_t_shirts2
 layout fragment_trending
 layout gride_item2
 layout grideitem

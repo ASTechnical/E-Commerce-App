@@ -32,4 +32,7 @@
     <color name="aquacolor">#289A8F</color>
     <color name="shimmerColor">#C2C2C2</color>
     <color name="shimmerColor_light">#E1E1E1</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="yellow">#02CCC0</color>
 </resources>

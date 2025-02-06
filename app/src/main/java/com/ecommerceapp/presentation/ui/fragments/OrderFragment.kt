@@ -1,16 +1,21 @@
 package com.ecommerceapp.presentation.ui.fragments
 
+
+import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
+
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
+import com.bumptech.glide.Glide
 import com.ecommerceapp.R
 import com.ecommerceapp.databinding.FragmentOrderBinding
-import com.ecommerceapp.models.ItemModel
-import com.bumptech.glide.Glide
+import com.flask.colorpicker.OnColorSelectedListener
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -56,3 +61,46 @@ class OrderFragment : Fragment() {
         _binding = null  // Clean up binding when the fragment's view is destroyed
     }
 }
+
+/*
+class OrderFragment : Fragment() {
+    private var _binding: FragmentOrderBinding? = null
+    private val binding get() = _binding!!
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
+        _binding = FragmentOrderBinding.inflate(inflater, container, false)
+
+        // Access views using binding
+        val selectColorButton: Button = binding.selectColorButton
+        val shirtImageView: ImageView = binding.shirtImageView
+
+        // Set up the color picker dialog
+        selectColorButton.setOnClickListener {
+            ColorPickerDialog.newBuilder()
+                .setDialogId(0)
+                .setAllowCustom(true)  // Allow custom colors
+                .setShowAlphaSlider(true)  // Show alpha slider
+                .setColor(Color.RED)  // Default color
+                .setPresets(intArrayOf(Color.RED, Color.GREEN, Color.BLUE, Color.YELLOW, Color.CYAN, Color.MAGENTA))  // Color presets
+                .setCustomColor(Color.BLACK, Color.RED)  // Custom color default range
+                .setOnColorSelectedListener(object : OnColorSelectedListener {
+                    override fun onColorSelected(color: Int) {
+                        // Change the color of the shirt image
+                        shirtImageView.setColorFilter(color)
+                    }
+                })
+                .build()
+                .show(childFragmentManager, "color_picker")
+        }
+
+        return binding.root
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+}*/
