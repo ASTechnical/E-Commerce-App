@@ -37,6 +37,9 @@
             app:argType="com.ecommerceapp.models.ItemModel"
             android:defaultValue="@null"
             app:nullable="true"/>
+        <action
+            android:id="@+id/action_catogeryFragment_to_productListFragment"
+            app:destination="@id/productListFragment" />
     </fragment>
 
 
@@ -100,5 +103,10 @@
             android:defaultValue="@null"
             app:nullable="true"/>
     </fragment>
+    <fragment
+        android:id="@+id/productListFragment"
+        android:name="com.ecommerceapp.presentation.ui.fragments.ProductListFragment"
+        android:label="fragment_product_list"
+        tools:layout="@layout/fragment_product_list" />
 
 </navigation>
