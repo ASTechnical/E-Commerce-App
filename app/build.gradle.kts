@@ -95,7 +95,7 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:2.8.6")
     implementation("androidx.navigation:navigation-ui-ktx:2.8.5")
 
-        implementation ("com.github.QuadFlask:colorpicker:0.0.13")  // Add this dependency for the color picker
+//        implementation ("com.github.QuadFlask:colorpicker:0.0.13")  // Add this dependency for the color picker
 
 
 }
