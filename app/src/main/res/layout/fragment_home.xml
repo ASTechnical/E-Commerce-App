@@ -222,7 +222,6 @@
                     android:id="@+id/circleRecyclerView"
                     android:layout_width="wrap_content"
                     android:layout_height="@dimen/_100sdp"
-
                     android:paddingTop="@dimen/_8sdp"
                     app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                     app:layout_constraintEnd_toEndOf="@id/textView7"
@@ -286,15 +285,14 @@
                     app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:spanCount="2"
+
                     tools:listitem="@layout/parent_item" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-
-                >
+                android:layout_height="wrap_content">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/third"
