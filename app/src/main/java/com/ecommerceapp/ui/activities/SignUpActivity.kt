@@ -9,8 +9,8 @@ import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.ecommerceapp.databinding.ActivitySignUpBinding
+import com.ecommerceapp.domain.viewmodel.AppViewModel
 import com.ecommerceapp.presentation.ui.activities.SignInActivity
-import com.ecommerceapp.presentation.viewModel.AppViewModel
 
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.storage.FirebaseStorage
