@@ -31,10 +31,10 @@
             android:name=".presentation.ui.activities.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.activities.MainActivity"
+            android:name=".presentation.ui.activities.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.activities.SignUpActivity"
+            android:name=".presentation.ui.activities.SignUpActivity"
             android:exported="false" >
 
         </activity>

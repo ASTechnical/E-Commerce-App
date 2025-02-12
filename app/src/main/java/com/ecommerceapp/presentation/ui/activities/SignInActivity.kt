@@ -8,8 +8,6 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.ecommerceapp.databinding.ActivitySignInBinding
 import com.ecommerceapp.domain.viewmodel.AppViewModel
-import com.ecommerceapp.ui.activities.MainActivity
-import com.ecommerceapp.ui.activities.SignUpActivity
 import com.google.firebase.auth.FirebaseAuth
 import dagger.hilt.android.AndroidEntryPoint
 

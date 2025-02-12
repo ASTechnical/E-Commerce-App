@@ -95,14 +95,14 @@
 51-->H:\New folder\E-Commerce-App\app\src\main\AndroidManifest.xml:32:13-37
 52        <activity
 52-->H:\New folder\E-Commerce-App\app\src\main\AndroidManifest.xml:33:9-35:40
-53            android:name="com.ecommerceapp.ui.activities.MainActivity"
-53-->H:\New folder\E-Commerce-App\app\src\main\AndroidManifest.xml:34:13-55
+53            android:name="com.ecommerceapp.presentation.ui.activities.MainActivity"
+53-->H:\New folder\E-Commerce-App\app\src\main\AndroidManifest.xml:34:13-68
 54            android:exported="false" />
 54-->H:\New folder\E-Commerce-App\app\src\main\AndroidManifest.xml:35:13-37
 55        <activity
 55-->H:\New folder\E-Commerce-App\app\src\main\AndroidManifest.xml:36:9-40:20
-56            android:name="com.ecommerceapp.ui.activities.SignUpActivity"
-56-->H:\New folder\E-Commerce-App\app\src\main\AndroidManifest.xml:37:13-57
+56            android:name="com.ecommerceapp.presentation.ui.activities.SignUpActivity"
+56-->H:\New folder\E-Commerce-App\app\src\main\AndroidManifest.xml:37:13-70
 57            android:exported="false" >
 57-->H:\New folder\E-Commerce-App\app\src\main\AndroidManifest.xml:38:13-37
 58        </activity>

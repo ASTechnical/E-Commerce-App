@@ -9,6 +9,13 @@ import com.ecommerceapp.presentation.ui.activities.MainActivity_GeneratedInjecto
 import com.ecommerceapp.presentation.ui.activities.ResetpasswordActivity_GeneratedInjector;
 import com.ecommerceapp.presentation.ui.activities.SignInActivity_GeneratedInjector;
 import com.ecommerceapp.presentation.ui.activities.SignUpActivity_GeneratedInjector;
+import com.ecommerceapp.presentation.ui.fragments.CategoryFragment_GeneratedInjector;
+import com.ecommerceapp.presentation.ui.fragments.FavouriteFragment_GeneratedInjector;
+import com.ecommerceapp.presentation.ui.fragments.HomeFragment_GeneratedInjector;
+import com.ecommerceapp.presentation.ui.fragments.OrderFragment_GeneratedInjector;
+import com.ecommerceapp.presentation.ui.fragments.home.ChildrenFragment_GeneratedInjector;
+import com.ecommerceapp.presentation.ui.fragments.home.RecommendedFragment_GeneratedInjector;
+import com.ecommerceapp.presentation.ui.fragments.home.TrendingFragment_GeneratedInjector;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;
@@ -152,7 +159,6 @@ public final class MyApplication_HiltComponents {
   @Subcomponent(
       modules = {
           AppViewModel_HiltModules.KeyModule.class,
-          com.ecommerceapp.presentation.viewModel.AppViewModel_HiltModules.KeyModule.class,
           HiltWrapper_ActivityRetainedComponentManager_LifecycleModule.class,
           HiltWrapper_SavedStateHandleModule.class,
           ActivityCBuilderModule.class,
@@ -185,8 +191,6 @@ public final class MyApplication_HiltComponents {
       ResetpasswordActivity_GeneratedInjector,
       SignInActivity_GeneratedInjector,
       SignUpActivity_GeneratedInjector,
-      com.ecommerceapp.ui.activities.MainActivity_GeneratedInjector,
-      com.ecommerceapp.ui.activities.SignUpActivity_GeneratedInjector,
       ActivityComponent,
       DefaultViewModelFactories.ActivityEntryPoint,
       HiltWrapper_HiltViewModelFactory_ActivityCreatorEntryPoint,
@@ -201,7 +205,6 @@ public final class MyApplication_HiltComponents {
   @Subcomponent(
       modules = {
           AppViewModel_HiltModules.BindsModule.class,
-          com.ecommerceapp.presentation.viewModel.AppViewModel_HiltModules.BindsModule.class,
           HiltWrapper_HiltViewModelFactory_ViewModelModule.class
       }
   )
@@ -227,7 +230,14 @@ public final class MyApplication_HiltComponents {
       modules = ViewWithFragmentCBuilderModule.class
   )
   @FragmentScoped
-  public abstract static class FragmentC implements FragmentComponent,
+  public abstract static class FragmentC implements CategoryFragment_GeneratedInjector,
+      FavouriteFragment_GeneratedInjector,
+      HomeFragment_GeneratedInjector,
+      OrderFragment_GeneratedInjector,
+      ChildrenFragment_GeneratedInjector,
+      RecommendedFragment_GeneratedInjector,
+      TrendingFragment_GeneratedInjector,
+      FragmentComponent,
       DefaultViewModelFactories.FragmentEntryPoint,
       ViewComponentManager.ViewWithFragmentComponentBuilderEntryPoint,
       GeneratedComponent {

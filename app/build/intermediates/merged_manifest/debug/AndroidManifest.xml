@@ -50,10 +50,10 @@
             android:name="com.ecommerceapp.presentation.ui.activities.LoginActivity"
             android:exported="false" />
         <activity
-            android:name="com.ecommerceapp.ui.activities.MainActivity"
+            android:name="com.ecommerceapp.presentation.ui.activities.MainActivity"
             android:exported="false" />
         <activity
-            android:name="com.ecommerceapp.ui.activities.SignUpActivity"
+            android:name="com.ecommerceapp.presentation.ui.activities.SignUpActivity"
             android:exported="false" >
         </activity>
         <activity

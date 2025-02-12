@@ -20,6 +20,13 @@ import com.ecommerceapp.presentation.ui.activities.MainActivity;
 import com.ecommerceapp.presentation.ui.activities.ResetpasswordActivity;
 import com.ecommerceapp.presentation.ui.activities.SignInActivity;
 import com.ecommerceapp.presentation.ui.activities.SignUpActivity;
+import com.ecommerceapp.presentation.ui.fragments.CategoryFragment;
+import com.ecommerceapp.presentation.ui.fragments.FavouriteFragment;
+import com.ecommerceapp.presentation.ui.fragments.HomeFragment;
+import com.ecommerceapp.presentation.ui.fragments.OrderFragment;
+import com.ecommerceapp.presentation.ui.fragments.home.ChildrenFragment;
+import com.ecommerceapp.presentation.ui.fragments.home.RecommendedFragment;
+import com.ecommerceapp.presentation.ui.fragments.home.TrendingFragment;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ImmutableSet;
 import com.google.firebase.auth.FirebaseAuth;
@@ -322,6 +329,34 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
     }
 
     @Override
+    public void injectCategoryFragment(CategoryFragment arg0) {
+    }
+
+    @Override
+    public void injectFavouriteFragment(FavouriteFragment arg0) {
+    }
+
+    @Override
+    public void injectHomeFragment(HomeFragment arg0) {
+    }
+
+    @Override
+    public void injectOrderFragment(OrderFragment arg0) {
+    }
+
+    @Override
+    public void injectChildrenFragment(ChildrenFragment arg0) {
+    }
+
+    @Override
+    public void injectRecommendedFragment(RecommendedFragment arg0) {
+    }
+
+    @Override
+    public void injectTrendingFragment(TrendingFragment arg0) {
+    }
+
+    @Override
     public DefaultViewModelFactories.InternalFactoryFactory getHiltInternalFactoryFactory() {
       return activityCImpl.getHiltInternalFactoryFactory();
     }
@@ -383,10 +418,6 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
     }
 
     @Override
-    public void injectMainActivity(com.ecommerceapp.ui.activities.MainActivity arg0) {
-    }
-
-    @Override
     public void injectResetpasswordActivity(ResetpasswordActivity arg0) {
     }
 
@@ -399,17 +430,13 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
     }
 
     @Override
-    public void injectSignUpActivity(com.ecommerceapp.ui.activities.SignUpActivity arg0) {
-    }
-
-    @Override
     public DefaultViewModelFactories.InternalFactoryFactory getHiltInternalFactoryFactory() {
       return DefaultViewModelFactories_InternalFactoryFactory_Factory.newInstance(getViewModelKeys(), new ViewModelCBuilder(singletonCImpl, activityRetainedCImpl));
     }
 
     @Override
     public Map<Class<?>, Boolean> getViewModelKeys() {
-      return LazyClassKeyMap.<Boolean>of(ImmutableMap.<String, Boolean>of(LazyClassKeyProvider.com_ecommerceapp_domain_viewmodel_AppViewModel, AppViewModel_HiltModules.KeyModule.provide(), LazyClassKeyProvider.com_ecommerceapp_presentation_viewModel_AppViewModel, com.ecommerceapp.presentation.viewModel.AppViewModel_HiltModules.KeyModule.provide()));
+      return LazyClassKeyMap.<Boolean>of(ImmutableMap.<String, Boolean>of(LazyClassKeyProvider.com_ecommerceapp_domain_viewmodel_AppViewModel, AppViewModel_HiltModules.KeyModule.provide()));
     }
 
     @Override
@@ -431,13 +458,8 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
     private static final class LazyClassKeyProvider {
       static String com_ecommerceapp_domain_viewmodel_AppViewModel = "com.ecommerceapp.domain.viewmodel.AppViewModel";
 
-      static String com_ecommerceapp_presentation_viewModel_AppViewModel = "com.ecommerceapp.presentation.viewModel.AppViewModel";
-
       @KeepFieldType
       AppViewModel com_ecommerceapp_domain_viewmodel_AppViewModel2;
-
-      @KeepFieldType
-      com.ecommerceapp.presentation.viewModel.AppViewModel com_ecommerceapp_presentation_viewModel_AppViewModel2;
     }
   }
 
@@ -449,8 +471,6 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
     private final ViewModelCImpl viewModelCImpl = this;
 
     private Provider<AppViewModel> appViewModelProvider;
-
-    private Provider<com.ecommerceapp.presentation.viewModel.AppViewModel> appViewModelProvider2;
 
     private ViewModelCImpl(SingletonCImpl singletonCImpl,
         ActivityRetainedCImpl activityRetainedCImpl, SavedStateHandle savedStateHandleParam,
@@ -466,12 +486,11 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
     private void initialize(final SavedStateHandle savedStateHandleParam,
         final ViewModelLifecycle viewModelLifecycleParam) {
       this.appViewModelProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 0);
-      this.appViewModelProvider2 = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 1);
     }
 
     @Override
     public Map<Class<?>, javax.inject.Provider<ViewModel>> getHiltViewModelMap() {
-      return LazyClassKeyMap.<javax.inject.Provider<ViewModel>>of(ImmutableMap.<String, javax.inject.Provider<ViewModel>>of(LazyClassKeyProvider.com_ecommerceapp_domain_viewmodel_AppViewModel, ((Provider) appViewModelProvider), LazyClassKeyProvider.com_ecommerceapp_presentation_viewModel_AppViewModel, ((Provider) appViewModelProvider2)));
+      return LazyClassKeyMap.<javax.inject.Provider<ViewModel>>of(ImmutableMap.<String, javax.inject.Provider<ViewModel>>of(LazyClassKeyProvider.com_ecommerceapp_domain_viewmodel_AppViewModel, ((Provider) appViewModelProvider)));
     }
 
     @Override
@@ -483,13 +502,8 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
     private static final class LazyClassKeyProvider {
       static String com_ecommerceapp_domain_viewmodel_AppViewModel = "com.ecommerceapp.domain.viewmodel.AppViewModel";
 
-      static String com_ecommerceapp_presentation_viewModel_AppViewModel = "com.ecommerceapp.presentation.viewModel.AppViewModel";
-
       @KeepFieldType
       AppViewModel com_ecommerceapp_domain_viewmodel_AppViewModel2;
-
-      @KeepFieldType
-      com.ecommerceapp.presentation.viewModel.AppViewModel com_ecommerceapp_presentation_viewModel_AppViewModel2;
     }
 
     private static final class SwitchingProvider<T> implements Provider<T> {
@@ -515,9 +529,6 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
         switch (id) {
           case 0: // com.ecommerceapp.domain.viewmodel.AppViewModel 
           return (T) new AppViewModel(singletonCImpl.provideAppRepositoryProvider.get(), ApplicationContextModule_ProvideApplicationFactory.provideApplication(singletonCImpl.applicationContextModule));
-
-          case 1: // com.ecommerceapp.presentation.viewModel.AppViewModel 
-          return (T) new com.ecommerceapp.presentation.viewModel.AppViewModel(singletonCImpl.provideAppRepositoryProvider.get(), ApplicationContextModule_ProvideApplicationFactory.provideApplication(singletonCImpl.applicationContextModule));
 
           default: throw new AssertionError(id);
         }
@@ -619,7 +630,7 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
     }
 
     @Override
-    public void injectMyApplication(MyApplication arg0) {
+    public void injectMyApplication(MyApplication myApplication) {
     }
 
     @Override

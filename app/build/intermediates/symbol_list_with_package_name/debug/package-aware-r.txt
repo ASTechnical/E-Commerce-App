@@ -3872,6 +3872,7 @@ drawable account
 drawable account_forget
 drawable accounts
 drawable accountsignup
+drawable arrow
 drawable avd_hide_password
 drawable avd_show_password
 drawable background

@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.NavController
@@ -125,6 +126,7 @@ class RecommendedFragment : Fragment(),OnClick {
     }
 
     override fun click(item: ItemModel) {
-        TODO("Not yet implemented")
+        Toast.makeText(requireContext(),"Coming Soon",Toast.LENGTH_SHORT).show()
+
     }
 }

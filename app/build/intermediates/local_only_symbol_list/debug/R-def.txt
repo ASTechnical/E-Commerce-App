@@ -44,6 +44,7 @@ drawable account
 drawable account_forget
 drawable accounts
 drawable accountsignup
+drawable arrow
 drawable background
 drawable bag
 drawable banner
