@@ -158,12 +158,11 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
     <ImageView
         android:id="@+id/textView4"
-        android:layout_width="@dimen/_295sdp"
-
-        android:layout_height="139dp"
+        android:layout_width="@dimen/_270sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_height="@dimen/_100sdp"
         android:background="@drawable/banner"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tabLayout" />
     <androidx.core.widget.NestedScrollView
@@ -179,6 +178,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
             android:orientation="vertical">
 
 
@@ -188,35 +188,51 @@
                 android:id="@+id/childLinarLaout"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_100sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingHorizontal="@dimen/_4sdp"
                 app:layout_constraintBottom_toTopOf="@+id/parentLinearyLayout"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView6">
-
-                <TextView
-                    android:id="@+id/textView6"
-                    android:layout_width="wrap_content"
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/FeaturedProduct"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/featured_products"
-                    android:textSize="@dimen/_15ssp"
-                    android:textStyle="bold"
-                    android:layout_margin="10dp"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <TextView
-                    android:id="@+id/textView7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="148dp"
-                    android:text="@string/view_all"
-                    android:textColor="#FF5B7E"
-                    android:textSize="@dimen/_15ssp"
-                    android:textStyle="bold"
-                    android:layout_margin="10dp"
-                    app:layout_constraintBottom_toBottomOf="@id/textView6"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/textView6" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_margin="@dimen/_10sdp"
+                    >
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:fontFamily="@font/open_sans"
+                        android:text="@string/featured_products"
+                        android:textSize="@dimen/_15ssp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="@string/view_all"
+                        android:textColor="#FF5B7E"
+                        android:fontFamily="@font/open_sans"
+                        android:textSize="@dimen/_15ssp"
+                        android:textStyle="bold"
+
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/circleRecyclerView"
@@ -224,9 +240,9 @@
                     android:layout_height="@dimen/_100sdp"
                     android:paddingTop="@dimen/_8sdp"
                     app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                    app:layout_constraintEnd_toEndOf="@id/textView7"
-                    app:layout_constraintStart_toStartOf="@+id/textView6"
-                    app:layout_constraintTop_toBottomOf="@id/textView6"
+                    app:layout_constraintEnd_toEndOf="@id/FeaturedProduct"
+                    app:layout_constraintStart_toStartOf="@+id/FeaturedProduct"
+                    app:layout_constraintTop_toBottomOf="@id/FeaturedProduct"
                     tools:listitem="@layout/item_image" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -241,13 +257,13 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingVertical="4dp">
+                >
 
                     <TextView
                         android:id="@+id/textView5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
+                        android:layout_margin="@dimen/_10sdp"
                         android:fontFamily="@font/open_sans"
                         android:text="@string/all_product"
                         android:textAllCaps="false"
@@ -262,16 +278,16 @@
                         android:id="@+id/see_all_upcoming"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
+                        android:layout_margin="@dimen/_10sdp"
                         android:fontFamily="@font/open_sans"
                         android:text="See All"
                         android:textAllCaps="false"
                         android:textColor="#FF5B7E"
+                        android:textSize="@dimen/_12ssp"
                         android:textStyle="bold"
-                        android:textSize="16sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="@+id/textView5" />
+                        app:layout_constraintTop_toTopOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/mainRecyclerView"
@@ -334,14 +350,16 @@
             </LinearLayout>
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/grideRecyclerView"
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fadeScrollbars="true"
                 app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:spanCount="3"
+                android:padding="@dimen/_10sdp"
                 app:layout_constraintStart_toStartOf="parent"
+                tools:listitem="@layout/gride_item2"
 
                 />
 
@@ -350,8 +368,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fadeScrollbars="true"
+                android:padding="@dimen/_10sdp"
                 app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-
+                tools:listitem="@layout/parent_item"
+                app:spanCount="2"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
