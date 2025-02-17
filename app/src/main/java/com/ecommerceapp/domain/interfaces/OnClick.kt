@@ -1,7 +1,7 @@
 package com.ecommerceapp.domain.interfaces
 
-import com.ecommerceapp.models.ItemModel
+import com.ecommerceapp.domain.models.ItemModel
 
 interface OnClick {
-    fun click(item:ItemModel)
+    fun click(item: ItemModel)
 }

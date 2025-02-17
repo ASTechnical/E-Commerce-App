@@ -1101,6 +1101,26 @@ attr shapeAppearanceMediumComponent
 attr shapeAppearanceOverlay
 attr shapeAppearanceSmallComponent
 attr shapeCornerFamily
+attr shimmer_auto_start
+attr shimmer_base_alpha
+attr shimmer_base_color
+attr shimmer_clip_to_children
+attr shimmer_colored
+attr shimmer_direction
+attr shimmer_dropoff
+attr shimmer_duration
+attr shimmer_fixed_height
+attr shimmer_fixed_width
+attr shimmer_height_ratio
+attr shimmer_highlight_alpha
+attr shimmer_highlight_color
+attr shimmer_intensity
+attr shimmer_repeat_count
+attr shimmer_repeat_delay
+attr shimmer_repeat_mode
+attr shimmer_shape
+attr shimmer_tilt
+attr shimmer_width_ratio
 attr shortcutMatchRequired
 attr shouldRemoveExpandedCorners
 attr showAnimationBehavior
@@ -3878,6 +3898,7 @@ drawable avd_show_password
 drawable background
 drawable bag
 drawable banner
+drawable baseline_autorenew_24
 drawable bg
 drawable bg_search
 drawable border_color
@@ -3923,7 +3944,9 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable facebook
 drawable favourite
+drawable favouriteimage
 drawable fb_logo
+drawable fivestar
 drawable google
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -3931,7 +3954,6 @@ drawable gorgle
 drawable happywomen
 drawable heartfill
 drawable home
-drawable ic_arrow
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -4024,6 +4046,8 @@ drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
 drawable myquestion
 drawable navigation_empty_icon
+drawable network_lost_icon
+drawable no_network_icon
 drawable notification
 drawable notification_action_background
 drawable notification_bg
@@ -4050,6 +4074,7 @@ drawable rectanglebottom
 drawable seekbar
 drawable selector_menu
 drawable sendotp
+drawable shape
 drawable shirt
 drawable shirt_image
 drawable signboard3
@@ -4073,6 +4098,7 @@ id BOTTOM_START
 id Bakewear
 id CTRL
 id FUNCTION
+id FeaturedProduct
 id HandBag
 id HomeKitchen
 id META
@@ -4177,12 +4203,14 @@ id autoCompleteToStart
 id bakeweare
 id barrier
 id baseline
+id beautiful
 id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
 id bottom
 id bottom_nav
+id bottom_to_top
 id bounce
 id bounceBoth
 id bounceEnd
@@ -4234,12 +4262,14 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id color_beautiful
 id complainsicon
 id complainstext
 id compress
 id confirmPasswordEditText
 id confirm_button
 id constraint
+id constraintLayout
 id container
 id content
 id contentPanel
@@ -4324,6 +4354,7 @@ id fixed
 id flip
 id floating
 id for_cardView
+id for_favouritecardView
 id for_textcardView
 id forever
 id fragment_container
@@ -4344,6 +4375,7 @@ id graph
 id graph_wrap
 id gride2RecyclerView
 id grideRecyclerView
+id grideRecyclerViewShimmerEffect
 id gride_imageView
 id group1
 id group_divider
@@ -4373,6 +4405,11 @@ id imageView3
 id imageView7
 id imageView8
 id imageViewSettings
+id imageViewTe
+id imageViewTeamAImage
+id img1
+id img2
+id img3
 id imgCart
 id immediateStop
 id included
@@ -4388,6 +4425,7 @@ id labeled
 id layout
 id left
 id leftToRight
+id left_to_right
 id legacy
 id light
 id line1
@@ -4395,6 +4433,7 @@ id line3
 id linear
 id listMode
 id list_item
+id live_match
 id locale
 id ltr
 id m3_side_sheet
@@ -4404,6 +4443,7 @@ id marquee
 id masked
 id match_constraint
 id match_parent
+id matches_shimmer_layout
 id material_clock_display
 id material_clock_display_and_toggle
 id material_clock_face
@@ -4486,12 +4526,16 @@ id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
 id navigation_header_container
 id nestedScrollView
+id network_icon
+id network_lost_icon
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
 id newProductsRecyclerView
 id noScroll
 id noState
+id no_connection_desc
+id no_internet
 id none
 id normal
 id north
@@ -4549,6 +4593,7 @@ id profile_img
 id progressBar
 id progress_circular
 id progress_horizontal
+id radial
 id radio
 id ratio
 id recentlyicon
@@ -4563,11 +4608,14 @@ id relativeLayoutpic
 id relativeLayouttext
 id repeat
 id report_drawn
+id restart
+id reverse
 id reverseSawtooth
 id right
 id rightToLeft
 id right_icon
 id right_side
+id right_to_left
 id rounded
 id row_index_key
 id rtl
@@ -4596,6 +4644,7 @@ id select_dialog_listview
 id selected
 id selection_type
 id sendButton
+id shape_beautiful
 id sharedValueSet
 id sharedValueUnset
 id shirtImageView
@@ -4634,6 +4683,8 @@ id src_atop
 id src_in
 id src_over
 id standard
+id star_beautiful
+id star_beautifultext
 id start
 id startHorizontal
 id startToEnd
@@ -4647,6 +4698,7 @@ id submit_area
 id supportScrollUp
 id supporticon
 id supporttext
+id tShirts_beautiful
 id tabLayout
 id tabMode
 id tag_accessibility_actions
@@ -4669,6 +4721,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textVieamA
 id textView
 id textView10
 id textView11
@@ -4700,6 +4753,9 @@ id textView7
 id textView8
 id textView9
 id textViewName
+id textViewScoreTeamA
+id textViewTeamAName
+id textViewTee
 id textViewforsize
 id text_input_end_icon
 id text_input_error_icon
@@ -4719,6 +4775,7 @@ id title_template
 id toggle
 id top
 id topPanel
+id top_to_bottom
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -4733,6 +4790,7 @@ id transition_transform
 id trending
 id trendingFragment
 id triangle
+id try_again
 id tshirts
 id tv3
 id tvAll
@@ -4741,12 +4799,14 @@ id tvSpecialOffer
 id txt_account
 id txt_cart
 id txt_home
+id txt_no_connection
 id unchecked
 id uniform
 id unlabeled
 id unpaidicon
 id unpaidtext
 id up
+id upcoming_matches_shimmer_layout
 id useLogo
 id userNameEditText
 id verificationCode
@@ -4918,6 +4978,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dp_example
+layout favourite_item
 layout fragment_blank
 layout fragment_catogery
 layout fragment_children
@@ -4933,6 +4994,7 @@ layout grideitem
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_image
+layout layout_home_matches_shimmer
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -4993,6 +5055,7 @@ layout nav_menu_item_favourite
 layout nav_menu_item_home
 layout nav_menu_item_log
 layout nav_menu_item_order
+layout no_intent_layout
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -5254,6 +5317,7 @@ string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string nested
 string night_mood
+string no_internet_connection
 string notification
 string ongoing_series
 string order
@@ -5294,12 +5358,14 @@ string too
 string tpo
 string trending
 string trending_news
+string try_again
 string ttt
 string upcoming_matches
 string view_all
 string winter_shoes
 string wintershoes
 string women
+string you_are_not_connected
 string yy
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -6570,6 +6636,7 @@ styleable SearchBar android_textAppearance android_text android_hint backgroundT
 styleable SearchView android_textAppearance android_focusable android_maxWidth android_text android_hint android_inputType android_imeOptions animateMenuItems animateNavigationIcon autoShowKeyboard backHandlingEnabled backgroundTint closeIcon commitIcon defaultQueryHint goIcon headerLayout hideNavigationIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon searchPrefixText submitBackground suggestionRowLayout useDrawerArrowDrawable voiceIcon
 styleable ShapeAppearance cornerFamily cornerFamilyBottomLeft cornerFamilyBottomRight cornerFamilyTopLeft cornerFamilyTopRight cornerSize cornerSizeBottomLeft cornerSizeBottomRight cornerSizeTopLeft cornerSizeTopRight
 styleable ShapeableImageView contentPadding contentPaddingBottom contentPaddingEnd contentPaddingLeft contentPaddingRight contentPaddingStart contentPaddingTop shapeAppearance shapeAppearanceOverlay strokeColor strokeWidth
+styleable ShimmerFrameLayout shimmer_auto_start shimmer_base_alpha shimmer_base_color shimmer_clip_to_children shimmer_colored shimmer_direction shimmer_dropoff shimmer_duration shimmer_fixed_height shimmer_fixed_width shimmer_height_ratio shimmer_highlight_alpha shimmer_highlight_color shimmer_intensity shimmer_repeat_count shimmer_repeat_delay shimmer_repeat_mode shimmer_shape shimmer_tilt shimmer_width_ratio
 styleable SideSheetBehavior_Layout android_maxWidth android_maxHeight android_elevation backgroundTint behavior_draggable coplanarSiblingViewId shapeAppearance shapeAppearanceOverlay
 styleable SignInButton buttonSize colorScheme scopeUris
 styleable Slider android_enabled android_value android_stepSize android_valueFrom android_valueTo haloColor haloRadius labelBehavior labelStyle minTouchTargetSize thumbColor thumbElevation thumbHeight thumbRadius thumbStrokeColor thumbStrokeWidth thumbTrackGapSize thumbWidth tickColor tickColorActive tickColorInactive tickRadiusActive tickRadiusInactive tickVisible trackColor trackColorActive trackColorInactive trackHeight trackInsideCornerSize trackStopIndicatorSize

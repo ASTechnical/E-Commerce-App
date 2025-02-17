@@ -7,12 +7,12 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.ecommerceapp.data.repository.Repository
-import com.ecommerceapp.models.CategoriesModel
+import com.ecommerceapp.domain.models.CategoriesModel
 
-import com.ecommerceapp.models.ImageItemModel
-import com.ecommerceapp.models.ItemModel
+import com.ecommerceapp.domain.models.ImageItemModel
+import com.ecommerceapp.domain.models.ItemModel
 
-import com.ecommerceapp.models.UserDataModel
+import com.ecommerceapp.domain.models.UserDataModel
 import com.google.firebase.auth.FirebaseAuthUserCollisionException
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
@@ -30,7 +30,7 @@ class AppViewModel @Inject constructor(
 
     // New LiveData to hold category products
     val categoryProducts = MutableLiveData<List<CategoriesModel>>()
-
+    var networkConnected = MutableLiveData<Boolean>()
     val userDataModel = MutableLiveData<UserDataModel?>()
 
     private val successMessage = MutableLiveData<String>()

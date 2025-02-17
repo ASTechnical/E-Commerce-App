@@ -15,7 +15,7 @@ import com.ecommerceapp.databinding.FragmentFavouriteBinding
 import androidx.fragment.app.viewModels
 import com.ecommerceapp.domain.interfaces.OnClick
 import com.ecommerceapp.domain.viewmodel.AppViewModel
-import com.ecommerceapp.models.ItemModel
+import com.ecommerceapp.domain.models.ItemModel
 
 @AndroidEntryPoint
 class FavouriteFragment : Fragment(),OnClick {

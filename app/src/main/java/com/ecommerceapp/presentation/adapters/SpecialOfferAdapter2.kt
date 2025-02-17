@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.ecommerceapp.R
-import com.ecommerceapp.models.ItemModel
+import com.ecommerceapp.domain.models.ItemModel
 
 class SpecialOfferAdapter2 (private var list: ArrayList<ItemModel>, private val context: Context) :
     RecyclerView.Adapter<SpecialOfferAdapter2.ViewHolder>() {

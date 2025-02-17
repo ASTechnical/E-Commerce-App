@@ -45,10 +45,10 @@ android {
 }
 
 dependencies {
-    implementation ("de.hdodenhof:circleimageview:3.1.0")
-    implementation ("com.makeramen:roundedimageview:2.3.0")
-    implementation ("com.intuit.ssp:ssp-android:1.1.0")
-    implementation ("com.intuit.sdp:sdp-android:1.1.0")
+    implementation("de.hdodenhof:circleimageview:3.1.0")
+    implementation("com.makeramen:roundedimageview:2.3.0")
+    implementation("com.intuit.ssp:ssp-android:1.1.0")
+    implementation("com.intuit.sdp:sdp-android:1.1.0")
     implementation("androidx.cardview:cardview:1.0.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
@@ -58,49 +58,33 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.firebase.auth)
+
+    // Shimmer RecyclerView
+    implementation(libs.shimmer)
+    //implementation("com.github.sharish:ShimmerRecyclerView:v1.3")
+    // Firebase and Google dependencies
+    implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-storage-ktx")
+    implementation("com.google.firebase:firebase-messaging-ktx")
+    implementation("com.google.firebase:firebase-firestore-ktx")
+
+    // Glide and Picasso
+    implementation("com.github.bumptech.glide:glide:4.12.0")
+    implementation("com.squareup.picasso:picasso:2.71828")
+
+    // Hilt dependencies
+    implementation("com.google.dagger:hilt-android:2.51.1")
+    ksp("com.google.dagger:hilt-compiler:2.51.1")
+    androidTestImplementation("com.google.dagger:hilt-android-testing:2.51.1")
+    kspAndroidTest("com.google.dagger:hilt-compiler:2.51.1")
+    testImplementation("com.google.dagger:hilt-android-testing:2.51.1")
+    kspTest("com.google.dagger:hilt-compiler:2.51.1")
+
+    // Testing libraries
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    //   implementation ("com.github.OMARIHAMZA:StoryView:1.0.2-alpha")
-    //  implementation ("com.github.sharish:ShimmerRecyclerView:v1.3")
-    //  implementation ("com.github.3llomi:CircularStatusView:V1.0.3")
-    implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
-    // Firebase Authentication
-    implementation ("com.google.firebase:firebase-auth:23.0.0")
-    implementation ("com.google.android.gms:play-services-auth:20.5.0")
-
-    //  implementation("com.google.firebase:firebase-database-ktx")
-    implementation("com.google.firebase:firebase-storage-ktx")
-    // implementation("com.google.firebase:firebase-auth-ktx")
-    implementation("com.google.firebase:firebase-messaging-ktx")
-    implementation ("com.google.firebase:firebase-firestore-ktx:25.0.0")
-    implementation ("com.github.bumptech.glide:glide:4.12.0")
-    implementation("com.google.dagger:hilt-android:2.51.1")
-    ksp("com.google.dagger:hilt-compiler:2.51.1")
-
-    // For instrumentation tests
-    androidTestImplementation("com.google.dagger:hilt-android-testing:2.51.1")
-    kspAndroidTest("com.google.dagger:hilt-compiler:2.51.1")
-
-    // For local unit tests
-    testImplementation("com.google.dagger:hilt-android-testing:2.51.1")
-    kspTest("com.google.dagger:hilt-compiler:2.51.1")
-    // kapt ("com.github.bumptech.glide:compiler:4.12.0")
-
-    implementation ("com.squareup.picasso:picasso:2.71828")
-
-    implementation ("org.jetbrains.kotlin:kotlin-parcelize-runtime:1.6.10" )
-    implementation ("androidx.core:core-ktx:1.9.0")
-
-    implementation("androidx.navigation:navigation-fragment-ktx:2.8.6")
-    implementation("androidx.navigation:navigation-ui-ktx:2.8.5")
-
-//        implementation ("com.github.QuadFlask:colorpicker:0.0.13")  // Add this dependency for the color picker
-
-
 }
-
-
-
 
 

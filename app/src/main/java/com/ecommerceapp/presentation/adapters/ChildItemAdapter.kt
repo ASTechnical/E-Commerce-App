@@ -12,7 +12,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.ecommerceapp.R
 import com.ecommerceapp.domain.interfaces.OnClick
-import com.ecommerceapp.models.ItemModel
+import com.ecommerceapp.domain.models.ItemModel
 
 class ChildItemAdapter(
     private var list: ArrayList<ItemModel>,

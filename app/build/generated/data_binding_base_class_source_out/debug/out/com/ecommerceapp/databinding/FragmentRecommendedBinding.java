@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.ecommerceapp.R;
+import com.facebook.shimmer.ShimmerFrameLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -22,6 +23,9 @@ import java.lang.String;
 public final class FragmentRecommendedBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
+
+  @NonNull
+  public final ConstraintLayout FeaturedProduct;
 
   @NonNull
   public final ConstraintLayout all;
@@ -39,10 +43,19 @@ public final class FragmentRecommendedBinding implements ViewBinding {
   public final LinearLayout circleimg;
 
   @NonNull
+  public final ConstraintLayout constraintLayout;
+
+  @NonNull
   public final RecyclerView gride2RecyclerView;
 
   @NonNull
   public final RecyclerView grideRecyclerView;
+
+  @NonNull
+  public final ShimmerFrameLayout grideRecyclerViewShimmerEffect;
+
+  @NonNull
+  public final ConstraintLayout home;
 
   @NonNull
   public final ImageView imageView7;
@@ -54,10 +67,16 @@ public final class FragmentRecommendedBinding implements ViewBinding {
   public final RecyclerView mainRecyclerView;
 
   @NonNull
+  public final ShimmerFrameLayout matchesShimmerLayout;
+
+  @NonNull
   public final NestedScrollView nestedScrollView;
 
   @NonNull
-  public final LinearLayout parentLinearyLayout;
+  public final NoIntentLayoutBinding noInternet;
+
+  @NonNull
+  public final ConstraintLayout parentLinearyLayout;
 
   @NonNull
   public final ConstraintLayout recommended;
@@ -104,31 +123,44 @@ public final class FragmentRecommendedBinding implements ViewBinding {
   @NonNull
   public final TextView tvSpecialOffer;
 
+  @NonNull
+  public final ShimmerFrameLayout upcomingMatchesShimmerLayout;
+
   private FragmentRecommendedBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout all, @NonNull ConstraintLayout childLinarLaout,
-      @NonNull ConstraintLayout childern, @NonNull RecyclerView circleRecyclerView,
-      @NonNull LinearLayout circleimg, @NonNull RecyclerView gride2RecyclerView,
-      @NonNull RecyclerView grideRecyclerView, @NonNull ImageView imageView7,
-      @NonNull ImageView imageView8, @NonNull RecyclerView mainRecyclerView,
-      @NonNull NestedScrollView nestedScrollView, @NonNull LinearLayout parentLinearyLayout,
-      @NonNull ConstraintLayout recommended, @NonNull TextView seeAllUpcoming,
-      @NonNull ConstraintLayout tabLayout, @NonNull TextView textView161,
-      @NonNull TextView textView1611, @NonNull TextView textView16111, @NonNull ImageView textView4,
-      @NonNull TextView textView5, @NonNull TextView textView6, @NonNull TextView textView7,
-      @NonNull ConstraintLayout third, @NonNull ConstraintLayout trending, @NonNull TextView tv3,
-      @NonNull TextView tvAll, @NonNull TextView tvSpecialOffer) {
+      @NonNull ConstraintLayout FeaturedProduct, @NonNull ConstraintLayout all,
+      @NonNull ConstraintLayout childLinarLaout, @NonNull ConstraintLayout childern,
+      @NonNull RecyclerView circleRecyclerView, @NonNull LinearLayout circleimg,
+      @NonNull ConstraintLayout constraintLayout, @NonNull RecyclerView gride2RecyclerView,
+      @NonNull RecyclerView grideRecyclerView,
+      @NonNull ShimmerFrameLayout grideRecyclerViewShimmerEffect, @NonNull ConstraintLayout home,
+      @NonNull ImageView imageView7, @NonNull ImageView imageView8,
+      @NonNull RecyclerView mainRecyclerView, @NonNull ShimmerFrameLayout matchesShimmerLayout,
+      @NonNull NestedScrollView nestedScrollView, @NonNull NoIntentLayoutBinding noInternet,
+      @NonNull ConstraintLayout parentLinearyLayout, @NonNull ConstraintLayout recommended,
+      @NonNull TextView seeAllUpcoming, @NonNull ConstraintLayout tabLayout,
+      @NonNull TextView textView161, @NonNull TextView textView1611,
+      @NonNull TextView textView16111, @NonNull ImageView textView4, @NonNull TextView textView5,
+      @NonNull TextView textView6, @NonNull TextView textView7, @NonNull ConstraintLayout third,
+      @NonNull ConstraintLayout trending, @NonNull TextView tv3, @NonNull TextView tvAll,
+      @NonNull TextView tvSpecialOffer, @NonNull ShimmerFrameLayout upcomingMatchesShimmerLayout) {
     this.rootView = rootView;
+    this.FeaturedProduct = FeaturedProduct;
     this.all = all;
     this.childLinarLaout = childLinarLaout;
     this.childern = childern;
     this.circleRecyclerView = circleRecyclerView;
     this.circleimg = circleimg;
+    this.constraintLayout = constraintLayout;
     this.gride2RecyclerView = gride2RecyclerView;
     this.grideRecyclerView = grideRecyclerView;
+    this.grideRecyclerViewShimmerEffect = grideRecyclerViewShimmerEffect;
+    this.home = home;
     this.imageView7 = imageView7;
     this.imageView8 = imageView8;
     this.mainRecyclerView = mainRecyclerView;
+    this.matchesShimmerLayout = matchesShimmerLayout;
     this.nestedScrollView = nestedScrollView;
+    this.noInternet = noInternet;
     this.parentLinearyLayout = parentLinearyLayout;
     this.recommended = recommended;
     this.seeAllUpcoming = seeAllUpcoming;
@@ -145,6 +177,7 @@ public final class FragmentRecommendedBinding implements ViewBinding {
     this.tv3 = tv3;
     this.tvAll = tvAll;
     this.tvSpecialOffer = tvSpecialOffer;
+    this.upcomingMatchesShimmerLayout = upcomingMatchesShimmerLayout;
   }
 
   @Override
@@ -174,6 +207,12 @@ public final class FragmentRecommendedBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.FeaturedProduct;
+      ConstraintLayout FeaturedProduct = ViewBindings.findChildViewById(rootView, id);
+      if (FeaturedProduct == null) {
+        break missingId;
+      }
+
       id = R.id.all;
       ConstraintLayout all = ViewBindings.findChildViewById(rootView, id);
       if (all == null) {
@@ -204,6 +243,12 @@ public final class FragmentRecommendedBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.constraintLayout;
+      ConstraintLayout constraintLayout = ViewBindings.findChildViewById(rootView, id);
+      if (constraintLayout == null) {
+        break missingId;
+      }
+
       id = R.id.gride2RecyclerView;
       RecyclerView gride2RecyclerView = ViewBindings.findChildViewById(rootView, id);
       if (gride2RecyclerView == null) {
@@ -215,6 +260,14 @@ public final class FragmentRecommendedBinding implements ViewBinding {
       if (grideRecyclerView == null) {
         break missingId;
       }
+
+      id = R.id.grideRecyclerViewShimmerEffect;
+      ShimmerFrameLayout grideRecyclerViewShimmerEffect = ViewBindings.findChildViewById(rootView, id);
+      if (grideRecyclerViewShimmerEffect == null) {
+        break missingId;
+      }
+
+      ConstraintLayout home = (ConstraintLayout) rootView;
 
       id = R.id.imageView7;
       ImageView imageView7 = ViewBindings.findChildViewById(rootView, id);
@@ -234,14 +287,27 @@ public final class FragmentRecommendedBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.matches_shimmer_layout;
+      ShimmerFrameLayout matchesShimmerLayout = ViewBindings.findChildViewById(rootView, id);
+      if (matchesShimmerLayout == null) {
+        break missingId;
+      }
+
       id = R.id.nestedScrollView;
       NestedScrollView nestedScrollView = ViewBindings.findChildViewById(rootView, id);
       if (nestedScrollView == null) {
         break missingId;
       }
 
+      id = R.id.no_internet;
+      View noInternet = ViewBindings.findChildViewById(rootView, id);
+      if (noInternet == null) {
+        break missingId;
+      }
+      NoIntentLayoutBinding binding_noInternet = NoIntentLayoutBinding.bind(noInternet);
+
       id = R.id.parentLinearyLayout;
-      LinearLayout parentLinearyLayout = ViewBindings.findChildViewById(rootView, id);
+      ConstraintLayout parentLinearyLayout = ViewBindings.findChildViewById(rootView, id);
       if (parentLinearyLayout == null) {
         break missingId;
       }
@@ -336,11 +402,19 @@ public final class FragmentRecommendedBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentRecommendedBinding((ConstraintLayout) rootView, all, childLinarLaout,
-          childern, circleRecyclerView, circleimg, gride2RecyclerView, grideRecyclerView,
-          imageView7, imageView8, mainRecyclerView, nestedScrollView, parentLinearyLayout,
-          recommended, seeAllUpcoming, tabLayout, textView161, textView1611, textView16111,
-          textView4, textView5, textView6, textView7, third, trending, tv3, tvAll, tvSpecialOffer);
+      id = R.id.upcoming_matches_shimmer_layout;
+      ShimmerFrameLayout upcomingMatchesShimmerLayout = ViewBindings.findChildViewById(rootView, id);
+      if (upcomingMatchesShimmerLayout == null) {
+        break missingId;
+      }
+
+      return new FragmentRecommendedBinding((ConstraintLayout) rootView, FeaturedProduct, all,
+          childLinarLaout, childern, circleRecyclerView, circleimg, constraintLayout,
+          gride2RecyclerView, grideRecyclerView, grideRecyclerViewShimmerEffect, home, imageView7,
+          imageView8, mainRecyclerView, matchesShimmerLayout, nestedScrollView, binding_noInternet,
+          parentLinearyLayout, recommended, seeAllUpcoming, tabLayout, textView161, textView1611,
+          textView16111, textView4, textView5, textView6, textView7, third, trending, tv3, tvAll,
+          tvSpecialOffer, upcomingMatchesShimmerLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

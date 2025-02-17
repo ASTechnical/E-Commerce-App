@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.ecommerceapp.R
-import com.ecommerceapp.models.CategoriesModel
+import com.ecommerceapp.domain.models.CategoriesModel
 
 class AccessoriesAdapter(private var list: List<CategoriesModel>, private val context: Context) :
     RecyclerView.Adapter<AccessoriesAdapter.ViewHolder>() {

@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.ecommerceapp.R
-import com.ecommerceapp.models.ImageItemModel
+import com.ecommerceapp.domain.models.ImageItemModel
 
 
 

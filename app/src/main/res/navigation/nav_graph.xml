@@ -19,7 +19,7 @@
             app:destination="@id/profileFragment" />
         <argument
             android:name="itemModel"
-            app:argType="com.ecommerceapp.models.ItemModel"
+            app:argType="com.ecommerceapp.domain.models.ItemModel"
             android:defaultValue="@null"
             app:nullable="true"/>
         <action
@@ -34,7 +34,7 @@
         tools:layout="@layout/fragment_catogery">
         <argument
             android:name="itemModel"
-            app:argType="com.ecommerceapp.models.ItemModel"
+            app:argType="com.ecommerceapp.domain.models.ItemModel"
             android:defaultValue="@null"
             app:nullable="true"/>
         <action
@@ -53,7 +53,7 @@
             app:destination="@id/orderFragment" />
         <argument
             android:name="itemModel"
-            app:argType="com.ecommerceapp.models.ItemModel"
+            app:argType="com.ecommerceapp.domain.models.ItemModel"
             android:defaultValue="@null"
             app:nullable="true"/>
     </fragment>
@@ -85,7 +85,7 @@
 
         <argument
             android:name="itemModel"
-            app:argType="com.ecommerceapp.models.ItemModel"
+            app:argType="com.ecommerceapp.domain.models.ItemModel"
             android:defaultValue="@null"
             app:nullable="true"/>
         <action
@@ -99,7 +99,7 @@
         tools:layout="@layout/fragment_order" >
         <argument
             android:name="itemModel"
-            app:argType="com.ecommerceapp.models.ItemModel"
+            app:argType="com.ecommerceapp.domain.models.ItemModel"
             android:defaultValue="@null"
             app:nullable="true"/>
     </fragment>

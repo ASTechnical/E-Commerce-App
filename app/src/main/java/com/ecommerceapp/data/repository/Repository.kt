@@ -2,10 +2,10 @@ package com.ecommerceapp.data.repository
 
 
 import android.util.Log
-import com.ecommerceapp.models.CategoriesModel
-import com.ecommerceapp.models.ImageItemModel
-import com.ecommerceapp.models.ItemModel
-import com.ecommerceapp.models.UserDataModel
+import com.ecommerceapp.domain.models.CategoriesModel
+import com.ecommerceapp.domain.models.ImageItemModel
+import com.ecommerceapp.domain.models.ItemModel
+import com.ecommerceapp.domain.models.UserDataModel
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseAuthUserCollisionException
 import com.google.firebase.firestore.FirebaseFirestore

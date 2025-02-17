@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.os.Parcelable
 import androidx.navigation.NavDirections
 import com.ecommerceapp.R
-import com.ecommerceapp.models.ItemModel
+import com.ecommerceapp.domain.models.ItemModel
 import java.io.Serializable
 import kotlin.Int
 import kotlin.Suppress

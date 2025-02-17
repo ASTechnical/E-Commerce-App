@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.os.Parcelable
 import androidx.lifecycle.SavedStateHandle
 import androidx.navigation.NavArgs
-import com.ecommerceapp.models.ItemModel
+import com.ecommerceapp.domain.models.ItemModel
 import java.io.Serializable
 import java.lang.UnsupportedOperationException
 import kotlin.Suppress

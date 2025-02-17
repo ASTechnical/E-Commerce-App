@@ -15,11 +15,12 @@ import com.ecommerceapp.R
 import com.ecommerceapp.databinding.FragmentRecommendedBinding
 import com.ecommerceapp.domain.interfaces.OnClick
 import com.ecommerceapp.domain.viewmodel.AppViewModel
-import com.ecommerceapp.models.ItemModel
+import com.ecommerceapp.domain.models.ItemModel
 import com.ecommerceapp.presentation.adapters.ChildItemAdapter
 import com.ecommerceapp.presentation.adapters.ImageAdapter
 import com.ecommerceapp.presentation.adapters.SpecialOfferAdapter
 import com.ecommerceapp.presentation.adapters.SpecialOfferAdapter2
+import com.ecommerceapp.util.AppUtils
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -45,7 +46,30 @@ class RecommendedFragment : Fragment(),OnClick {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         navController = Navigation.findNavController(view)
-        setUpUi()
+        binding.noInternet.tryAgain.setOnClickListener {
+            if (AppUtils.isInternetConnected(requireContext())) {
+                appViewModel.networkConnected.postValue(AppUtils.isInternetConnected(requireContext()))
+            }
+
+        }
+        appViewModel.networkConnected.postValue(AppUtils.isInternetConnected(requireContext()))
+        appViewModel.networkConnected.observe(viewLifecycleOwner) { isConnected ->
+            if (isConnected) {
+                setUpUi()
+                appViewModel.getProductData()
+                appViewModel.getImageData()
+                appViewModel.getGridProductData()
+                appViewModel.getGridProductData2()
+                binding.tabLayout.visibility = View.VISIBLE
+                binding.nestedScrollView.visibility = View.VISIBLE
+                binding.noInternet.root.visibility = View.GONE
+            } else {
+                binding.noInternet.root.visibility = View.VISIBLE
+                binding.tabLayout.visibility = View.GONE
+                binding.nestedScrollView.visibility = View.GONE
+            }
+        }
+       // setUpUi()
         imageAdapter = ImageAdapter(arrayListOf(), requireContext())
         binding.circleRecyclerView.layoutManager =
             LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, true)
@@ -77,6 +101,7 @@ class RecommendedFragment : Fragment(),OnClick {
 
         appViewModel.products.observe(viewLifecycleOwner) { grideproduct2 ->
             specialOfferAdapter2.updateList(grideproduct2)
+            binding.matchesShimmerLayout.visibility = View.GONE
 
         }
 
@@ -89,10 +114,12 @@ class RecommendedFragment : Fragment(),OnClick {
 
         appViewModel.products.observe(viewLifecycleOwner) { products ->
             adapter.updateList(products)
+            binding.upcomingMatchesShimmerLayout.visibility = View.GONE
 
         }
         appViewModel.products.observe(viewLifecycleOwner) { grideproduct ->
             specialOfferAdapter.updateList(grideproduct)
+            binding.grideRecyclerViewShimmerEffect.visibility = View.GONE
 
         }
 
@@ -102,10 +129,7 @@ class RecommendedFragment : Fragment(),OnClick {
         }
 
 
-        appViewModel.getProductData()
-        appViewModel.getImageData()
-        appViewModel.getGridProductData()
-        appViewModel.getGridProductData2()
+
     }
 
 
