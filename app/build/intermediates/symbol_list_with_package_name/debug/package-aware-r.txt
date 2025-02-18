@@ -4071,6 +4071,7 @@ drawable rectangle
 drawable rectanglea
 drawable rectanglebackground
 drawable rectanglebottom
+drawable rounded_white_background
 drawable seekbar
 drawable selector_menu
 drawable sendotp
@@ -4961,6 +4962,7 @@ layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout category_design_layout
 layout chilern_image_item
+layout circularshimmerlayout
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -4994,7 +4996,7 @@ layout grideitem
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_image
-layout layout_home_matches_shimmer
+layout layout_home_shimmer
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

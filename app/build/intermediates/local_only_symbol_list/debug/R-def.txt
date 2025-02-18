@@ -93,6 +93,7 @@ drawable rectangle
 drawable rectanglea
 drawable rectanglebackground
 drawable rectanglebottom
+drawable rounded_white_background
 drawable seekbar
 drawable selector_menu
 drawable sendotp
@@ -332,6 +333,7 @@ layout activity_sign_in
 layout activity_sign_up
 layout category_design_layout
 layout chilern_image_item
+layout circularshimmerlayout
 layout favourite_item
 layout fragment_blank
 layout fragment_catogery
@@ -346,7 +348,7 @@ layout fragment_trending
 layout gride_item2
 layout grideitem
 layout item_image
-layout layout_home_matches_shimmer
+layout layout_home_shimmer
 layout nav_header_layout
 layout nav_menu_item_accounts
 layout nav_menu_item_cart

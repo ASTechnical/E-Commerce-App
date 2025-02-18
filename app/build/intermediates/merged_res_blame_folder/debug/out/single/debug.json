@@ -116,6 +116,10 @@
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\processing.png"
     },
     {
+        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_circularshimmerlayout.xml.flat",
+        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\circularshimmerlayout.xml"
+    },
+    {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_network_lost_icon.jpg.flat",
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\network_lost_icon.jpg"
     },
@@ -152,16 +156,16 @@
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\ic_header.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_no_network_icon.xml.flat",
+        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\no_network_icon.xml"
     },
     {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_ic_placeholder.png.flat",
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\ic_placeholder.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_no_network_icon.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\no_network_icon.xml"
+        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\xml\\backup_rules.xml"
     },
     {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_seekbar.xml.flat",
@@ -248,6 +252,10 @@
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\notification.xml"
     },
     {
+        "merged": "com.ecommerceapp-merged_res-62:/layout_circularshimmerlayout.xml.flat",
+        "source": "com.ecommerceapp-main-64:/layout/circularshimmerlayout.xml"
+    },
+    {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_fivestar.png.flat",
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\fivestar.png"
     },
@@ -258,6 +266,10 @@
     {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_rounded_white_background.xml.flat",
+        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\rounded_white_background.xml"
     },
     {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_account_forget.png.flat",
@@ -368,10 +380,6 @@
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\more.xml"
     },
     {
-        "merged": "com.ecommerceapp-merged_res-62:/layout_fragment_recommended.xml.flat",
-        "source": "com.ecommerceapp-main-64:/layout/fragment_recommended.xml"
-    },
-    {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\anim_down.xml.flat",
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\anim\\down.xml"
     },
@@ -396,10 +404,6 @@
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\rectanglebackground.png"
     },
     {
-        "merged": "com.ecommerceapp-merged_res-62:/navigation_nav_graph.xml.flat",
-        "source": "com.ecommerceapp-main-64:/navigation/nav_graph.xml"
-    },
-    {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_parent_item.xml.flat",
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\parent_item.xml"
     },
@@ -418,14 +422,6 @@
     {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_signup.png.flat",
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\signup.png"
-    },
-    {
-        "merged": "com.ecommerceapp-merged_res-62:/layout_fragment_children.xml.flat",
-        "source": "com.ecommerceapp-main-64:/layout/fragment_children.xml"
-    },
-    {
-        "merged": "com.ecommerceapp-merged_res-62:/layout_fragment_trending.xml.flat",
-        "source": "com.ecommerceapp-main-64:/layout/fragment_trending.xml"
     },
     {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-anydpi_ic_launcher.xml.flat",
@@ -464,12 +460,12 @@
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\category.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_home.xml"
-    },
-    {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_recommended.xml.flat",
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_recommended.xml"
+    },
+    {
+        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_home.xml"
     },
     {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_rectanglebottom.png.flat",
@@ -510,5 +506,9 @@
     {
         "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\menu_navigation_menu.xml.flat",
         "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\menu\\navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_layout_home_shimmer.xml.flat",
+        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\layout_home_shimmer.xml"
     }
 ]

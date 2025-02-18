@@ -4070,6 +4070,7 @@ int drawable rectangle 0x7f08012b
 int drawable rectanglea 0x7f08012c
 int drawable rectanglebackground 0x7f08012d
 int drawable rectanglebottom 0x7f08012e
+int drawable rounded_white_background 0x7f080142
 int drawable seekbar 0x7f08012f
 int drawable selector_menu 0x7f080130
 int drawable sendotp 0x7f080131
@@ -4960,6 +4961,7 @@ int layout browser_actions_context_menu_page 0x7f0d0023
 int layout browser_actions_context_menu_row 0x7f0d0024
 int layout category_design_layout 0x7f0d0025
 int layout chilern_image_item 0x7f0d0026
+int layout circularshimmerlayout 0x7f0d0095
 int layout custom_dialog 0x7f0d0027
 int layout design_bottom_navigation_item 0x7f0d0028
 int layout design_bottom_sheet_dialog 0x7f0d0029
@@ -4993,7 +4995,7 @@ int layout grideitem 0x7f0d0044
 int layout ime_base_split_test_activity 0x7f0d0045
 int layout ime_secondary_split_test_activity 0x7f0d0046
 int layout item_image 0x7f0d0047
-int layout layout_home_matches_shimmer 0x7f0d0048
+int layout layout_home_shimmer 0x7f0d0096
 int layout m3_alert_dialog 0x7f0d0049
 int layout m3_alert_dialog_actions 0x7f0d004a
 int layout m3_alert_dialog_title 0x7f0d004b

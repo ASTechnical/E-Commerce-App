@@ -103,9 +103,6 @@ class HomeFragment : Fragment(),OnClick {
         appViewModel.products.observe(viewLifecycleOwner) { grideproduct2 ->
             specialOfferAdapter2.updateList(grideproduct2)
             binding.matchesShimmerLayout.visibility = View.GONE
-          //  binding?.matchesContainer?.visibility = View.VISIBLE
-
-         //   binding?.upcomingMatchesContainer?.visibility=View.VISIBLE
 
         }
 

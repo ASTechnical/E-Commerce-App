@@ -247,7 +247,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <include layout="@layout/layout_home_matches_shimmer" />
+                        <include layout="@layout/circularshimmerlayout" />
 
                     </LinearLayout>
 
@@ -334,7 +334,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical">
 
-                            <include layout="@layout/layout_home_matches_shimmer" />
+                            <include layout="@layout/layout_home_shimmer" />
 
                         </LinearLayout>
 
@@ -425,7 +425,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <include layout="@layout/layout_home_matches_shimmer" />
+                        <include layout="@layout/layout_home_shimmer" />
 
                     </LinearLayout>
 
