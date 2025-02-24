@@ -1,514 +1,514 @@
 [
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_logout.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\logout.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_unpaid.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\unpaid.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_selector_menu.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\selector_menu.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_signup.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\signup.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_chilern_image_item.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\chilern_image_item.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_account.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\account.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_rectangle.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\rectangle.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_darkmode.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\darkmode.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_account_forget.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\account_forget.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_catogery.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_catogery.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_accounts.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\accounts.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_ic_menu.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\ic_menu.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_myquestion.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\myquestion.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_category_design_layout.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\category_design_layout.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_no_intent_layout.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\no_intent_layout.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_nav_menu_item_favourite.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\nav_menu_item_favourite.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_favourite.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_favourite.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_happywomen.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\happywomen.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_nav_menu_item_order.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\nav_menu_item_order.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_signupboard.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\signupboard.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\anim_down.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\anim\\down.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_profile.jpg.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\profile.jpg"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_fb_logo.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\fb_logo.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_category_design_layout.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\category_design_layout.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_nav_menu_item_cart.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\nav_menu_item_cart.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_circle_shape.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\circle_shape.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_nav_menu_item_home.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\nav_menu_item_home.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\menu_sidebar.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\menu\\sidebar.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_circle_shape.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\circle_shape.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_men.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\men.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_favourite_item.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\favourite_item.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_layout_home_shimmer.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\layout_home_shimmer.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-anydpi\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_shimmereffectlayoutgride.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\shimmereffectlayoutgride.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_signboard3.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\signboard3.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\font_open_sans.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\font\\open_sans.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_more.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\more.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_bag.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\bag.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\navigation\\nav_graph.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_bg_search.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\bg_search.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_heartfill.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\heartfill.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_twitter.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\twitter.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_signboard4.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\signboard4.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_complain.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\complain.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_rectanglea.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\rectanglea.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_oldorder.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\oldorder.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_processing.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\processing.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_grideitem.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\grideitem.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_circularshimmerlayout.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\circularshimmerlayout.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_nav_menu_item_log.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\nav_menu_item_log.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_network_lost_icon.jpg.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\network_lost_icon.jpg"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_favourite.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\favourite.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_image.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\image.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_t_shirt.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\t_shirt.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_rectanglebackground.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\rectanglebackground.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_activity_sign_in.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\activity_sign_in.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_accountsignup.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\accountsignup.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_banner.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\banner.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_shirt.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\shirt.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_product_list.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_product_list.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_image.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\image.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_facebook.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\facebook.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_chilern_image_item.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\chilern_image_item.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_support.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\support.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_fivestar.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\fivestar.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_ic_header.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\ic_header.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_nav_menu_item_accounts.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\nav_menu_item_accounts.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_no_network_icon.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\no_network_icon.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_cart.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\cart.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_ic_placeholder.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\ic_placeholder.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_arrow.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\arrow.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-anydpi\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_seekbar.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\seekbar.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\navigation\\nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_oldorder.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\oldorder.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_grideitem.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\grideitem.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_signupboard.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\signupboard.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_twitter.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\twitter.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_shirt.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\shirt.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_nav_menu_item_darkmode.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\nav_menu_item_darkmode.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_stars.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\stars.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\button_background.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_signboard5.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\signboard5.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_activity_enter_otp.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\activity_enter_otp.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_rectangle.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\rectangle.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_seekbar.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\seekbar.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_cart.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\cart.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_complains.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\complains.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_item_image.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\item_image.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_shirt_image.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\shirt_image.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_activity_forget_password.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\activity_forget_password.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_banner.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\banner.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_activity_sign_up.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\activity_sign_up.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_recommended.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_recommended.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_order.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\order.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_logout.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\logout.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_activity_resetpassword.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\activity_resetpassword.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_accounts.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\accounts.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_arrow.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\arrow.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_activity_enter_otp.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\activity_enter_otp.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_gride_item2.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\gride_item2.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_favouriteimage.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\favouriteimage.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_rounded_white_background.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\rounded_white_background.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_cancel.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\cancel.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_darkmode.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\darkmode.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_shape.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\shape.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_signboard3.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\signboard3.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_notification.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\notification.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_myquestion.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\myquestion.png"
     },
     {
-        "merged": "com.ecommerceapp-merged_res-62:/layout_circularshimmerlayout.xml.flat",
-        "source": "com.ecommerceapp-main-64:/layout/circularshimmerlayout.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_fivestar.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\fivestar.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_category.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\category.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_rectanglebottom.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\rectanglebottom.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_bg.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\bg.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_rounded_white_background.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\rounded_white_background.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_parent_item.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\parent_item.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_account_forget.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\account_forget.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\font_open_sans.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\font\\open_sans.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-anydpi\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_layout_home_matches_shimmer.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\layout_home_matches_shimmer.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_support.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\support.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_recently.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\recently.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_product_list.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_product_list.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_shirt_image.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\shirt_image.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_border_color.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\border_color.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_vector.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\vector.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_blank.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_blank.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_nav_menu_item_category.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\nav_menu_item_category.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_complain.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\complain.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_favouriteimage.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\favouriteimage.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_fb_logo.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\fb_logo.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_rectanglea.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\rectanglea.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_nav_menu_item_favourite.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\nav_menu_item_favourite.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_circularshimmerlayout.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\circularshimmerlayout.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_nav_menu_item_category.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\nav_menu_item_category.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_signboard4.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\signboard4.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_favourite.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\favourite.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_recently.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\recently.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_nav_header_layout.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\nav_header_layout.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_processing.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\processing.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_nav_menu_item_order.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\nav_menu_item_order.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_facebook.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\facebook.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_bag.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\bag.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_activity_sign_in.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_google.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\google.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\menu_sidebar.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\menu\\sidebar.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_profile.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_profile.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_ic_error.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\ic_error.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_heartfill.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\heartfill.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_nav_menu_item_log.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\nav_menu_item_log.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_happywomen.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\happywomen.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_sendotp.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\sendotp.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_no_network_icon.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\no_network_icon.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_bg_search.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\bg_search.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_t_shirt.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\t_shirt.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_shape.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\shape.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_border_color.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\border_color.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_order.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_order.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_nav_header_layout.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\nav_header_layout.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_no_intent_layout.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\no_intent_layout.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_background.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\background.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_men.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\men.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_more.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\more.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_item_image.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\item_image.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\anim_down.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\anim\\down.xml"
+        "merged": "com.ecommerceapp-merged_res-62:/layout_fragment_catogery.xml.flat",
+        "source": "com.ecommerceapp-main-64:/layout/fragment_catogery.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_trending.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_trending.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_gorgle.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\gorgle.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_google.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\google.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_children.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_children.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_ic_header.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\ic_header.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_nav_menu_item_accounts.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\nav_menu_item_accounts.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_signboard5.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\signboard5.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_rectanglebackground.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\rectanglebackground.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_children.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_children.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_parent_item.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\parent_item.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_activity_forget_password.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\activity_forget_password.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_bg.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\bg.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_button_background.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\button_background.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_nav_menu_item_cart.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\nav_menu_item_cart.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_ic_error.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\ic_error.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_signup.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\signup.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_favourite.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_favourite.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-anydpi\\ic_launcher.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_favourite_item.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\favourite_item.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_order.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_order.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_nav_menu_item_darkmode.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\nav_menu_item_darkmode.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_blank.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_blank.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_gorgle.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\gorgle.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_stars.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\stars.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_vector.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\vector.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_account.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\account.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_activity_resetpassword.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\activity_resetpassword.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_complains.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\complains.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_order.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\order.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_accountsignup.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\accountsignup.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_background.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\background.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_category.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\category.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_notification.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\notification.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_recommended.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_recommended.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_activity_code_verification.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\activity_code_verification.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_catogery.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_catogery.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_rectanglebottom.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\rectanglebottom.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_selector_menu.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\selector_menu.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_baseline_autorenew_24.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\baseline_autorenew_24.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\menu_navigation_menu.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\menu\\navigation_menu.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_ic_menu.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\ic_menu.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_baseline_autorenew_24.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\baseline_autorenew_24.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_unpaid.png.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\unpaid.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_profile.jpg.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\profile.jpg"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_cancel.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\cancel.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_home.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\home.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_trending.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_trending.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_activity_code_verification.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\activity_code_verification.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_home.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\home.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_nav_menu_item_home.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\nav_menu_item_home.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_ic_placeholder.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\ic_placeholder.png"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_gride_item2.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\gride_item2.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\menu_navigation_menu.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\menu\\navigation_menu.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_network_lost_icon.jpg.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\network_lost_icon.jpg"
     },
     {
-        "merged": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\layout_layout_home_shimmer.xml.flat",
-        "source": "C:\\Users\\M Danyal\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\layout\\layout_home_shimmer.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-merged_res-62:\\drawable_sendotp.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\8.4\\com.ecommerceapp-main-64:\\drawable\\sendotp.png"
     }
 ]

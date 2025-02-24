@@ -4670,6 +4670,7 @@ id snapMargins
 id south
 id spacer
 id specialOffersRecyclerView
+id specialOffersRecyclerView1
 id special_effects_controller_view_tag
 id spinner1
 id spinner2
@@ -5069,6 +5070,7 @@ layout sdp_example
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout shimmereffectlayoutgride
 layout sp_example
 layout ssp_example
 layout support_simple_spinner_dropdown_item

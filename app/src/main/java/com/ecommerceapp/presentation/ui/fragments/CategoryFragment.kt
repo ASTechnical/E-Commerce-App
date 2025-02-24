@@ -48,11 +48,14 @@ class CategoryFragment : Fragment() {
         appViewModel.specialOffers.observe(viewLifecycleOwner) { specialProducts ->
             Log.d("CategoryProducts", "Special Offers loaded: ${specialProducts.size}")
             specialOffersAdapter.updateList(specialProducts)
+          //  binding.specialOffersRecyclerView1.visibility = View.GONE
+
         }
 
         appViewModel.newProducts.observe(viewLifecycleOwner) { newProducts ->
             Log.d("CategoryProducts", "New Products loaded: ${newProducts.size}")
             specialOffersAdapter.updateList(newProducts)
+           // binding.newProductsRecyclerView.visibility = View.GONE
         }
 
         appViewModel.errorMessage.observe(viewLifecycleOwner) { message ->

@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.ecommerceapp.R;
+import com.facebook.shimmer.ShimmerFrameLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -51,13 +52,17 @@ public final class FragmentCatogeryBinding implements ViewBinding {
   public final RecyclerView specialOffersRecyclerView;
 
   @NonNull
+  public final ShimmerFrameLayout specialOffersRecyclerView1;
+
+  @NonNull
   public final TextView wintershoes;
 
   private FragmentCatogeryBinding(@NonNull LinearLayout rootView, @NonNull TextView Accessories,
       @NonNull TextView Bakewear, @NonNull TextView HandBag, @NonNull TextView HomeKitchen,
       @NonNull TextView Men, @NonNull TextView TShirts, @NonNull TextView Women,
       @NonNull LinearLayout firstLinearLayout, @NonNull RecyclerView newProductsRecyclerView,
-      @NonNull RecyclerView specialOffersRecyclerView, @NonNull TextView wintershoes) {
+      @NonNull RecyclerView specialOffersRecyclerView,
+      @NonNull ShimmerFrameLayout specialOffersRecyclerView1, @NonNull TextView wintershoes) {
     this.rootView = rootView;
     this.Accessories = Accessories;
     this.Bakewear = Bakewear;
@@ -69,6 +74,7 @@ public final class FragmentCatogeryBinding implements ViewBinding {
     this.firstLinearLayout = firstLinearLayout;
     this.newProductsRecyclerView = newProductsRecyclerView;
     this.specialOffersRecyclerView = specialOffersRecyclerView;
+    this.specialOffersRecyclerView1 = specialOffersRecyclerView1;
     this.wintershoes = wintershoes;
   }
 
@@ -159,6 +165,12 @@ public final class FragmentCatogeryBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.specialOffersRecyclerView1;
+      ShimmerFrameLayout specialOffersRecyclerView1 = ViewBindings.findChildViewById(rootView, id);
+      if (specialOffersRecyclerView1 == null) {
+        break missingId;
+      }
+
       id = R.id.wintershoes;
       TextView wintershoes = ViewBindings.findChildViewById(rootView, id);
       if (wintershoes == null) {
@@ -167,7 +179,7 @@ public final class FragmentCatogeryBinding implements ViewBinding {
 
       return new FragmentCatogeryBinding((LinearLayout) rootView, Accessories, Bakewear, HandBag,
           HomeKitchen, Men, TShirts, Women, firstLinearLayout, newProductsRecyclerView,
-          specialOffersRecyclerView, wintershoes);
+          specialOffersRecyclerView, specialOffersRecyclerView1, wintershoes);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

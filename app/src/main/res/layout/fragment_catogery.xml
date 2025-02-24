@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#1F2C34">
+    <include layout="@layout/shimmereffectlayoutgride"/>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -179,8 +181,6 @@
         </ScrollView>
 
 
-
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -188,24 +188,19 @@
 
             android:weightSum="2">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#334755"
-                android:layout_margin="@dimen/_12sdp"
-                android:orientation="vertical">
+
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/white"
-                    android:padding="8dp"
                     android:backgroundTint="#334755"
+                    android:padding="8dp"
                     android:text="Special Offers"
                     android:textColor="@android:color/white"
                     android:textSize="16sp"
                     android:textStyle="bold" />
+
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/specialOffersRecyclerView"
@@ -214,25 +209,27 @@
                     android:scrollbars="vertical"
                     app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
                     app:spanCount="3"
-                    tools:listitem="@layout/category_design_layout" />
-            </LinearLayout>
+
+                    tools:listitem="@layout/category_design_layout"/>
+
+
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_margin="@dimen/_12sdp"
-                android:orientation="vertical"
+                android:layout_weight="1"
                 android:background="#334755"
+                android:orientation="vertical"
                 tools:listitem="@layout/item_image">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/white"
+                    android:backgroundTint="#334755"
                     android:padding="8dp"
                     android:text="New Products"
-                    android:backgroundTint="#334755"
                     android:textColor="@android:color/white"
 
                     android:textSize="16sp"
@@ -246,6 +243,12 @@
                     app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
                     app:spanCount="3"
                     tools:listitem="@layout/category_design_layout" />
+
+
+
+
+
+
             </LinearLayout>
 
 
@@ -253,7 +256,7 @@
     </LinearLayout>
 
 
-</LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>
 
 
     <!--

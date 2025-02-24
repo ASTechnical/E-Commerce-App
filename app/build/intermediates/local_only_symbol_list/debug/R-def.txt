@@ -253,6 +253,7 @@ id shirtImageView2
 id signIn
 id signUpButton
 id specialOffersRecyclerView
+id specialOffersRecyclerView1
 id spinner1
 id spinner2
 id spinner3
@@ -360,6 +361,7 @@ layout nav_menu_item_log
 layout nav_menu_item_order
 layout no_intent_layout
 layout parent_item
+layout shimmereffectlayoutgride
 layout t_shirt
 menu navigation_menu
 menu sidebar

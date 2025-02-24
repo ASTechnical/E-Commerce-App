@@ -80,6 +80,8 @@ dependencies {
     kspAndroidTest("com.google.dagger:hilt-compiler:2.51.1")
     testImplementation("com.google.dagger:hilt-android-testing:2.51.1")
     kspTest("com.google.dagger:hilt-compiler:2.51.1")
+   // implementation ("com.facebook.shimmer:shimmer:0.5.0")
+
 
     // Testing libraries
     testImplementation(libs.junit)
