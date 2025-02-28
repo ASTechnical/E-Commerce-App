@@ -8,7 +8,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -22,19 +21,14 @@ public final class ShimmereffectlayoutgrideBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final CardView cardView;
-
-  @NonNull
   public final ImageView categoryImageView;
 
   @NonNull
   public final TextView categorySpecialOffer;
 
   private ShimmereffectlayoutgrideBinding(@NonNull ConstraintLayout rootView,
-      @NonNull CardView cardView, @NonNull ImageView categoryImageView,
-      @NonNull TextView categorySpecialOffer) {
+      @NonNull ImageView categoryImageView, @NonNull TextView categorySpecialOffer) {
     this.rootView = rootView;
-    this.cardView = cardView;
     this.categoryImageView = categoryImageView;
     this.categorySpecialOffer = categorySpecialOffer;
   }
@@ -66,12 +60,6 @@ public final class ShimmereffectlayoutgrideBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.cardView;
-      CardView cardView = ViewBindings.findChildViewById(rootView, id);
-      if (cardView == null) {
-        break missingId;
-      }
-
       id = R.id.category_imageView;
       ImageView categoryImageView = ViewBindings.findChildViewById(rootView, id);
       if (categoryImageView == null) {
@@ -84,8 +72,8 @@ public final class ShimmereffectlayoutgrideBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ShimmereffectlayoutgrideBinding((ConstraintLayout) rootView, cardView,
-          categoryImageView, categorySpecialOffer);
+      return new ShimmereffectlayoutgrideBinding((ConstraintLayout) rootView, categoryImageView,
+          categorySpecialOffer);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

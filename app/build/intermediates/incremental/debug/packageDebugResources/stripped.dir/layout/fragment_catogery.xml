@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#1F2C34">
+    <include layout="@layout/shimmereffectlayoutgride"/>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -186,22 +188,6 @@
 
             android:weightSum="2">
 
-            <com.facebook.shimmer.ShimmerFrameLayout
-                android:id="@+id/specialOffersRecyclerView1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_12sdp"
-                android:layout_weight="1"
-
-                android:orientation="vertical">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/_200sdp"
-                    android:orientation="vertical">
-
-                    <include layout="@layout/shimmereffectlayoutgride"/>
-                </LinearLayout>
-
 
 
                 <TextView
@@ -219,14 +205,14 @@
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/specialOffersRecyclerView"
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="wrap_content"
                     android:scrollbars="vertical"
                     app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
                     app:spanCount="3"
 
                     tools:listitem="@layout/category_design_layout"/>
 
-            </com.facebook.shimmer.ShimmerFrameLayout>
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -270,7 +256,7 @@
     </LinearLayout>
 
 
-</LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>
 
 
     <!--

@@ -1,0 +1,510 @@
+[
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_favouriteimage.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/favouriteimage.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_activity_enter_otp.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/activity_enter_otp.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/font_open_sans.xml.flat",
+        "source": "com.ecommerceapp-main-67:/font/open_sans.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ecommerceapp-main-67:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_account.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/account.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_ic_menu.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/ic_menu.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_fragment_trending.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/fragment_trending.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.ecommerceapp-main-67:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_t_shirt.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/t_shirt.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_google.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/google.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_gride_item2.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/gride_item2.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_border_color.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/border_color.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_activity_forget_password.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/activity_forget_password.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.ecommerceapp-main-67:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_button_background.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/button_background.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_selector_menu.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/selector_menu.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_ic_placeholder.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/ic_placeholder.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_fragment_recommended.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/fragment_recommended.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_shimmereffectlayoutgride.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/shimmereffectlayoutgride.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_grideitem.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/grideitem.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.ecommerceapp-main-67:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_bag.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/bag.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_fb_logo.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/fb_logo.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_activity_sign_in.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_fragment_product_list.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/fragment_product_list.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_gorgle.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/gorgle.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_nav_menu_item_log.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/nav_menu_item_log.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_twitter.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/twitter.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/xml_backup_rules.xml.flat",
+        "source": "com.ecommerceapp-main-67:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_nav_menu_item_favourite.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/nav_menu_item_favourite.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_oldorder.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/oldorder.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_stars.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/stars.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_network_lost_icon.jpg.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/network_lost_icon.jpg"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_circularshimmerlayout.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/circularshimmerlayout.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_shape.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/shape.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_category.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/category.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_complains.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/complains.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_activity_main.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_heartfill.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/heartfill.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_cancel.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/cancel.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_nav_menu_item_darkmode.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/nav_menu_item_darkmode.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_myquestion.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/myquestion.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_bg_search.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/bg_search.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_nav_menu_item_accounts.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/nav_menu_item_accounts.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_chilern_image_item.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/chilern_image_item.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_signboard3.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/signboard3.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_fragment_home.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_nav_menu_item_cart.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/nav_menu_item_cart.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_more.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/more.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_activity_code_verification.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/activity_code_verification.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_no_intent_layout.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/no_intent_layout.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.ecommerceapp-main-67:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_layout_home_shimmer.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/layout_home_shimmer.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_profile.jpg.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/profile.jpg"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_fragment_favourite.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/fragment_favourite.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.ecommerceapp-main-67:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_circle_shape.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/circle_shape.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_fragment_order.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/fragment_order.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/menu_navigation_menu.xml.flat",
+        "source": "com.ecommerceapp-main-67:/menu/navigation_menu.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_shirt.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/shirt.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_sendotp.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/sendotp.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_favourite.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/favourite.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_fragment_children.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/fragment_children.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_bg.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/bg.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/xml_data_extraction_rules.xml.flat",
+        "source": "com.ecommerceapp-main-67:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_rectanglebottom.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/rectanglebottom.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_men.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/men.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_nav_menu_item_home.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/nav_menu_item_home.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_banner.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/banner.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.ecommerceapp-main-67:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.ecommerceapp-main-67:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_fragment_profile.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_signboard5.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/signboard5.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_background.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/background.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_accountsignup.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/accountsignup.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_arrow.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/arrow.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_fivestar.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/fivestar.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/menu_sidebar.xml.flat",
+        "source": "com.ecommerceapp-main-67:/menu/sidebar.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.ecommerceapp-main-67:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_no_network_icon.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/no_network_icon.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_parent_item.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/parent_item.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_account_forget.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/account_forget.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ecommerceapp-main-67:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_nav_menu_item_category.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/nav_menu_item_category.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_ic_error.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/ic_error.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_rectanglebackground.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/rectanglebackground.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_order.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/order.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_activity_sign_up.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_complain.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/complain.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_fragment_catogery.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/fragment_catogery.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_processing.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/processing.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_rectanglea.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/rectanglea.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_home.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/home.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_notification.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/notification.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_image.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/image.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.ecommerceapp-main-67:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_signboard4.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/signboard4.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_favourite_item.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/favourite_item.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_item_image.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/item_image.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/anim_down.xml.flat",
+        "source": "com.ecommerceapp-main-67:/anim/down.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_facebook.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/facebook.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_happywomen.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/happywomen.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_signupboard.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/signupboard.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_fragment_blank.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/fragment_blank.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_baseline_autorenew_24.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/baseline_autorenew_24.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/navigation_nav_graph.xml.flat",
+        "source": "com.ecommerceapp-main-67:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_activity_resetpassword.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/activity_resetpassword.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_ic_header.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/ic_header.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_cart.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/cart.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_nav_header_layout.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/nav_header_layout.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_nav_menu_item_order.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/nav_menu_item_order.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_recently.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/recently.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_signup.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/signup.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_unpaid.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/unpaid.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_seekbar.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/seekbar.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_support.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/support.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/layout_category_design_layout.xml.flat",
+        "source": "com.ecommerceapp-main-67:/layout/category_design_layout.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_logout.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/logout.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_rectangle.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/rectangle.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_accounts.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/accounts.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_darkmode.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/darkmode.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_rounded_white_background.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/rounded_white_background.xml"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ecommerceapp-main-67:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_shirt_image.png.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/shirt_image.png"
+    },
+    {
+        "merged": "com.ecommerceapp-debug-65:/drawable_vector.xml.flat",
+        "source": "com.ecommerceapp-main-67:/drawable/vector.xml"
+    }
+]

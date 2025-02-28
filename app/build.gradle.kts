@@ -1,7 +1,10 @@
 plugins {
     alias(libs.plugins.android.application) // Android plugin comes first
     alias(libs.plugins.jetbrains.kotlin.android)
-    id("com.google.gms.google-services")
+    alias(libs.plugins.google.gms.google.services)
+    //id("com.google.gms.google-services")
+   // alias(libs.plugins.compose.compiler)
+
     id("com.google.dagger.hilt.android")
     id("com.google.devtools.ksp")
     id("androidx.navigation.safeargs.kotlin")
@@ -11,12 +14,12 @@ plugins {
 
 android {
     namespace = "com.ecommerceapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.ecommerceapp"
         minSdk = 26
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -45,11 +48,8 @@ android {
 }
 
 dependencies {
-    implementation("de.hdodenhof:circleimageview:3.1.0")
-    implementation("com.makeramen:roundedimageview:2.3.0")
-    implementation("com.intuit.ssp:ssp-android:1.1.0")
-    implementation("com.intuit.sdp:sdp-android:1.1.0")
-    implementation("androidx.cardview:cardview:1.0.0")
+
+    implementation(libs.androidx.cardview)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -57,36 +57,39 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
-    implementation(libs.firebase.auth)
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
 
     // Shimmer RecyclerView
     implementation(libs.shimmer)
     //implementation("com.github.sharish:ShimmerRecyclerView:v1.3")
     // Firebase and Google dependencies
-    implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
-    implementation("com.google.firebase:firebase-auth")
-    implementation("com.google.firebase:firebase-storage-ktx")
-    implementation("com.google.firebase:firebase-messaging-ktx")
-    implementation("com.google.firebase:firebase-firestore-ktx")
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.auth)
+    implementation(libs.google.firebase.auth)
+    implementation(libs.firebase.storage.ktx)
+    implementation(libs.firebase.messaging.ktx)
+    implementation(libs.firebase.firestore.ktx)
 
     // Glide and Picasso
-    implementation("com.github.bumptech.glide:glide:4.12.0")
-    implementation("com.squareup.picasso:picasso:2.71828")
+    implementation(libs.glide)
+    implementation(libs.picasso)
 
     // Hilt dependencies
-    implementation("com.google.dagger:hilt-android:2.51.1")
-    ksp("com.google.dagger:hilt-compiler:2.51.1")
-    androidTestImplementation("com.google.dagger:hilt-android-testing:2.51.1")
-    kspAndroidTest("com.google.dagger:hilt-compiler:2.51.1")
-    testImplementation("com.google.dagger:hilt-android-testing:2.51.1")
-    kspTest("com.google.dagger:hilt-compiler:2.51.1")
-   // implementation ("com.facebook.shimmer:shimmer:0.5.0")
-
+    implementation(libs.hilt.android)
+    ksp(libs.hilt.compiler)
+    androidTestImplementation(libs.hilt.android.testing)
+    kspAndroidTest(libs.hilt.compiler)
+    testImplementation(libs.hilt.android.testing)
+    kspTest(libs.hilt.compiler)
 
     // Testing libraries
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation(libs.circleimageview)
+    implementation(libs.roundedimageview)
+    implementation(libs.ssp.android)
+    implementation(libs.sdp.android)
 }
 
 
