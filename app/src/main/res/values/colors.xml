@@ -19,6 +19,7 @@
     <color name="gray_bg">#ECECEC</color>
     <color name="color_txt">#929292</color>
 
+    <color name="my_light_primary">#017A73</color>
     <color name="light_gray">#EAE4E4</color>
     <color name="red_color">#F84343</color>
     <color name="orangeColor">#FF5722</color>

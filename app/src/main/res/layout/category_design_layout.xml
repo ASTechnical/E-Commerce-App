@@ -4,15 +4,15 @@
     android:layout_width="@dimen/_60sdp"
     android:layout_height="@dimen/_80sdp"
     android:layout_gravity="center"
-    android:padding="@dimen/_10sdp">
+    android:padding="@dimen/_8sdp"
+   >
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:backgroundTint="@color/white"
-        app:cardCornerRadius="@dimen/_8sdp"
-        app:cardElevation="@dimen/_2sdp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

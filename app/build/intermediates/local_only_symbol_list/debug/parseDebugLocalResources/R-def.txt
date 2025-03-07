@@ -27,6 +27,7 @@ color green
 color green_color
 color light_app
 color light_gray
+color my_light_primary
 color orangeColor
 color pinkColor
 color red

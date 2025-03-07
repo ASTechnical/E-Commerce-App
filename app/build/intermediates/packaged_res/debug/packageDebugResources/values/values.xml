@@ -54,6 +54,7 @@
     <color name="green_color">#00A807</color>
     <color name="light_app">#EFD5AF</color>
     <color name="light_gray">#EAE4E4</color>
+    <color name="my_light_primary">#017A73</color>
     <color name="orangeColor">#FF5722</color>
     <color name="pinkColor">#FF5B80</color>
     <color name="red">#FF0000</color>
@@ -153,8 +154,8 @@
     <string name="you_are_not_connected">You are not Connected to Internet /n Please Check Your Network Connection</string>
     <string name="yy">yy</string>
     <style name="Base.Theme.ECommerceApp" parent="Theme.Material3.Dark.NoActionBar">
-        
-        
+         <item name="colorPrimary">@color/my_light_primary</item>
+
     </style>
     <style name="Theme.ECommerceApp" parent="Base.Theme.ECommerceApp"/>
 </resources>

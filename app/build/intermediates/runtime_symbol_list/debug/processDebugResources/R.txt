@@ -2218,6 +2218,7 @@ int color mtrl_textinput_disabled_color 0x7f06030b
 int color mtrl_textinput_filled_box_default_background_color 0x7f06030c
 int color mtrl_textinput_focused_box_stroke_color 0x7f06030d
 int color mtrl_textinput_hovered_box_stroke_color 0x7f06030e
+int color my_light_primary 0x7f060334
 int color notification_action_color_filter 0x7f06030f
 int color notification_icon_bg_color 0x7f060310
 int color orangeColor 0x7f060311

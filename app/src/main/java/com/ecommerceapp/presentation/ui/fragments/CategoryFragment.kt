@@ -40,6 +40,7 @@ class CategoryFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         context= requireContext()
+
         setupRecyclerViews()
         setupCategoryClickListeners()
         val passedItem = args.itemModel
@@ -116,6 +117,7 @@ class CategoryFragment : Fragment() {
          }
      }*/
     private fun setupCategoryClickListeners() {
+        appViewModel.fetchCategoryProducts("T-Shirts")
         val categoryPairs = listOf(
             Pair(binding.TShirts, "T-Shirts"),
             Pair(binding.Accessories, "Accessories"),

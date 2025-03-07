@@ -8,18 +8,18 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.ecommerceapp.R;
-import com.facebook.shimmer.ShimmerFrameLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class FragmentCatogeryBinding implements ViewBinding {
   @NonNull
-  private final ShimmerFrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final TextView Accessories;
@@ -54,11 +54,10 @@ public final class FragmentCatogeryBinding implements ViewBinding {
   @NonNull
   public final TextView wintershoes;
 
-  private FragmentCatogeryBinding(@NonNull ShimmerFrameLayout rootView,
-      @NonNull TextView Accessories, @NonNull TextView Bakewear, @NonNull TextView HandBag,
-      @NonNull TextView HomeKitchen, @NonNull TextView Men, @NonNull TextView TShirts,
-      @NonNull TextView Women, @NonNull LinearLayout firstLinearLayout,
-      @NonNull RecyclerView newProductsRecyclerView,
+  private FragmentCatogeryBinding(@NonNull ConstraintLayout rootView, @NonNull TextView Accessories,
+      @NonNull TextView Bakewear, @NonNull TextView HandBag, @NonNull TextView HomeKitchen,
+      @NonNull TextView Men, @NonNull TextView TShirts, @NonNull TextView Women,
+      @NonNull LinearLayout firstLinearLayout, @NonNull RecyclerView newProductsRecyclerView,
       @NonNull RecyclerView specialOffersRecyclerView, @NonNull TextView wintershoes) {
     this.rootView = rootView;
     this.Accessories = Accessories;
@@ -76,7 +75,7 @@ public final class FragmentCatogeryBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public ShimmerFrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -167,7 +166,7 @@ public final class FragmentCatogeryBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentCatogeryBinding((ShimmerFrameLayout) rootView, Accessories, Bakewear,
+      return new FragmentCatogeryBinding((ConstraintLayout) rootView, Accessories, Bakewear,
           HandBag, HomeKitchen, Men, TShirts, Women, firstLinearLayout, newProductsRecyclerView,
           specialOffersRecyclerView, wintershoes);
     }

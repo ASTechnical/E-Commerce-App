@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1F2C34">
-    <include layout="@layout/shimmereffectlayoutgride"/>
+    android:background="#121B22">
+
+    <include layout="@layout/shimmereffectlayoutgride" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#121B22"
         android:orientation="horizontal">
 
         <ScrollView
             android:layout_width="wrap_content"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="#1F2C34">
 
             <LinearLayout
                 android:id="@+id/firstLinearLayout"
@@ -24,24 +27,18 @@
                 android:background="#1F2C34"
                 android:orientation="vertical">
 
-                <!-- Accessories TextView with padding -->
                 <TextView
                     android:id="@+id/Accessories"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_35sdp"
-                    android:layout_marginTop="@dimen/_6sdp"
-                    android:gravity="center"
                     android:layout_marginBottom="@dimen/_6sdp"
-                    android:textStyle="bold"
+                    android:text="@string/Accessories"
+                    android:padding="@dimen/_12sdp"
+                    android:fontFamily="@font/open_sans"
+                    android:textAlignment="textStart"
                     android:textSize="@dimen/_10ssp"
-                    android:text="@string/Accessories" />
+                    android:textStyle="bold" />
 
-                <!-- Divider Line below Accessories -->
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginBottom="@dimen/_6sdp"
-                    android:background="@color/gray" />
 
                 <!-- T_Shirts TextView with padding -->
                 <TextView
@@ -49,133 +46,98 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_35sdp"
                     android:layout_marginTop="@dimen/_6sdp"
-                    android:gravity="center"
                     android:layout_marginBottom="@dimen/_6sdp"
-                    android:textStyle="bold"
+                    android:text="T-Shirts"
+                    android:background="#121B22"
+                    android:fontFamily="@font/open_sans"
+                    android:padding="@dimen/_12sdp"
+                    android:textAlignment="textStart"
                     android:textSize="@dimen/_10ssp"
-                    android:text="T_Shirts" />
+                    android:textStyle="bold" />
 
-                <!-- Divider Line below T_Shirts -->
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginBottom="@dimen/_6sdp"
-                    android:background="@color/gray" />
 
-                <!-- Bakewear TextView with padding -->
-
-                <!-- Divider Line below Bakewear -->
                 <TextView
                     android:id="@+id/Bakewear"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_35sdp"
                     android:layout_marginTop="@dimen/_6sdp"
                     android:layout_marginBottom="@dimen/_6sdp"
-                    android:gravity="center"
                     android:text="@string/bakewear"
+                    android:padding="@dimen/_12sdp"
+                    android:fontFamily="@font/open_sans"
+                    android:textAlignment="textStart"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold" />
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginBottom="@dimen/_6sdp"
-                    android:background="@color/gray" />
-
-                <!-- HandBag TextView with padding -->
                 <TextView
                     android:id="@+id/HandBag"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_35sdp"
-                    android:gravity="center"
                     android:layout_marginTop="@dimen/_6sdp"
                     android:layout_marginBottom="@dimen/_6sdp"
-                    android:textStyle="bold"
+                    android:text="@string/handbag"
+                    android:padding="@dimen/_12sdp"
+                    android:textAlignment="textStart"
+                    android:fontFamily="@font/open_sans"
                     android:textSize="@dimen/_10ssp"
-                    android:text="@string/handbag" />
+                    android:textStyle="bold" />
 
-                <!-- Divider Line below HandBag -->
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginBottom="@dimen/_6sdp"
-                    android:background="@color/gray" />
 
-                <!-- HomeKitchen TextView with padding -->
                 <TextView
                     android:id="@+id/HomeKitchen"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_35sdp"
                     android:layout_marginTop="@dimen/_6sdp"
                     android:layout_marginBottom="@dimen/_6sdp"
-                    android:textStyle="bold"
-                    android:gravity="center"
+                    android:text="@string/home_kitchen"
+                    android:padding="@dimen/_12sdp"
+                    android:fontFamily="@font/open_sans"
+                    android:textAlignment="textStart"
                     android:textSize="@dimen/_10ssp"
-                    android:text="@string/home_kitchen" />
+                    android:textStyle="bold" />
 
-                <!-- Divider Line below HomeKitchen -->
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginBottom="@dimen/_6sdp"
-                    android:background="#E0E0E0" />
 
-                <!-- WinterShoes TextView with padding -->
                 <TextView
                     android:id="@+id/wintershoes"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_35sdp"
                     android:layout_marginTop="@dimen/_6sdp"
                     android:layout_marginBottom="@dimen/_6sdp"
-                    android:gravity="center"
-                    android:textStyle="bold"
+                    android:text="@string/winter_shoes"
+                    android:textAlignment="textStart"
+                    android:fontFamily="@font/open_sans"
+                    android:padding="@dimen/_12sdp"
                     android:textSize="@dimen/_10ssp"
-                    android:text="@string/winter_shoes" />
+                    android:textStyle="bold" />
 
-                <!-- Divider Line below WinterShoes -->
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginBottom="@dimen/_6sdp"
-                    android:background="@color/gray" />
 
-                <!-- Women TextView with padding -->
                 <TextView
                     android:id="@+id/Women"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_35sdp"
                     android:layout_marginTop="@dimen/_6sdp"
                     android:layout_marginBottom="@dimen/_6sdp"
-                    android:textStyle="bold"
-                    android:gravity="center"
+                    android:text="@string/women"
+                    android:padding="@dimen/_12sdp"
+                    android:textAlignment="textStart"
+                    android:fontFamily="@font/open_sans"
                     android:textSize="@dimen/_10ssp"
-                    android:text="@string/women" />
+                    android:textStyle="bold" />
 
-                <!-- Divider Line below Women -->
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginBottom="@dimen/_6sdp"
-                    android:background="@color/gray" />
 
-                <!-- Men TextView with padding -->
                 <TextView
                     android:id="@+id/Men"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_35sdp"
-                    android:gravity="center"
                     android:layout_marginTop="@dimen/_6sdp"
                     android:layout_marginBottom="@dimen/_6sdp"
-                    android:textStyle="bold"
+                    android:text="@string/men"
+                    android:padding="@dimen/_12sdp"
+                    android:textAlignment="textStart"
+                    android:fontFamily="@font/open_sans"
                     android:textSize="@dimen/_10ssp"
-                    android:text="@string/men" />
+                    android:textStyle="bold" />
 
-                <!-- Divider Line below Men -->
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginBottom="@dimen/_6sdp"
-                    android:background="@color/gray" />
 
             </LinearLayout>
         </ScrollView>
@@ -185,18 +147,20 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-
             android:weightSum="2">
-
-
-
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:background="#1F2C34"
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:backgroundTint="#334755"
+                    android:fontFamily="@font/open_sans"
                     android:padding="8dp"
-                    android:text="Special Offers"
+                    android:text="Best Seller"
                     android:textColor="@android:color/white"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -207,29 +171,29 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:scrollbars="vertical"
+
                     app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
                     app:spanCount="3"
 
-                    tools:listitem="@layout/category_design_layout"/>
+                    tools:listitem="@layout/category_design_layout" />
+
+            </LinearLayout>
 
 
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_12sdp"
-                android:layout_weight="1"
-                android:background="#334755"
-                android:orientation="vertical"
-                tools:listitem="@layout/item_image">
+                android:layout_marginStart="@dimen/_16sdp"
+              android:layout_marginTop="@dimen/_8sdp"
+                android:background="#1F2C34"
+                android:orientation="vertical">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:backgroundTint="#334755"
                     android:padding="8dp"
-                    android:text="New Products"
+                    android:text="Featured"
                     android:textColor="@android:color/white"
 
                     android:textSize="16sp"
@@ -245,10 +209,6 @@
                     tools:listitem="@layout/category_design_layout" />
 
 
-
-
-
-
             </LinearLayout>
 
 
@@ -256,7 +216,7 @@
     </LinearLayout>
 
 
-</com.facebook.shimmer.ShimmerFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 
 
     <!--
