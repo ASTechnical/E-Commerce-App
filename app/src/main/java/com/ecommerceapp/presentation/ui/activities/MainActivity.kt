@@ -42,23 +42,6 @@ class MainActivity : AppCompatActivity(),
         FirebaseApp.initializeApp(this)
         sharedPreferences = getSharedPreferences("AppPreferences", MODE_PRIVATE)
         isDarkMode = sharedPreferences.getBoolean("isDarkMode", false)
-        val controller = window.insetsController
-        if (controller != null) {
-            if (isDarkMode) {
-                controller.setSystemBarsAppearance(0, APPEARANCE_LIGHT_STATUS_BARS)
-                window.statusBarColor = getColor(R.color.black)
-            } else {
-                controller.setSystemBarsAppearance(APPEARANCE_LIGHT_STATUS_BARS, APPEARANCE_LIGHT_STATUS_BARS)
-                window.statusBarColor = getColor(R.color.white)
-            }
-            if (isDarkMode) {
-                window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
-                window.statusBarColor = getColor(R.color.black)
-            } else {
-                window.decorView.systemUiVisibility = 0
-                window.statusBarColor = getColor(R.color.white)
-            }
-        }
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         viewModel.fetchUserData()
